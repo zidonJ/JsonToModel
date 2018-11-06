@@ -1,0 +1,3669 @@
+{
+"data": {
+"sysTopics": [
+{
+"sysTopicChildren": [
+{
+"sysTopicID": "29",
+"sysTopicName": "地理学"
+},
+{
+"sysTopicID": "30",
+"sysTopicName": "天文学"
+},
+{
+"sysTopicID": "31",
+"sysTopicName": "气象学"
+},
+{
+"sysTopicID": "32",
+"sysTopicName": "化学"
+},
+{
+"sysTopicID": "33",
+"sysTopicName": "生态学"
+},
+{
+"sysTopicID": "34",
+"sysTopicName": "农业"
+}
+],
+"sysTopicID": "5",
+"sysTopicName": "自然科学"
+},
+{
+"sysTopicChildren": [
+{
+"sysTopicID": "35",
+"sysTopicName": "考古学"
+},
+{
+"sysTopicID": "36",
+"sysTopicName": "社会学"
+},
+{
+"sysTopicID": "37",
+"sysTopicName": "心理学"
+},
+{
+"sysTopicID": "38",
+"sysTopicName": "历史"
+},
+{
+"sysTopicID": "39",
+"sysTopicName": "人类学"
+},
+{
+"sysTopicID": "40",
+"sysTopicName": "人口统计学"
+},
+{
+"sysTopicID": "41",
+"sysTopicName": "商业"
+},
+{
+"sysTopicID": "42",
+"sysTopicName": "教育"
+}
+],
+"sysTopicID": "6",
+"sysTopicName": "社会科学"
+},
+{
+"sysTopicChildren": [
+{
+"sysTopicID": "43",
+"sysTopicName": "艺术"
+}
+],
+"sysTopicID": "7",
+"sysTopicName": "文化艺术"
+},
+{
+"sysTopicChildren": [
+{
+"sysTopicID": "44",
+"sysTopicName": "生物学"
+},
+{
+"sysTopicID": "45",
+"sysTopicName": "植物学"
+}
+],
+"sysTopicID": "8",
+"sysTopicName": "生命科学"
+}
+],
+"difficulties": [
+{
+"name": "易",
+"value": "0"
+},
+{
+"name": "中",
+"value": "1"
+},
+{
+"name": "难",
+"value": "2"
+}
+],
+"sysPapers": [
+{
+"questItems": [
+{
+"searchSysTopicIDs": [
+"6",
+"41"
+],
+"totalQuest": "14",
+"id": "TPO-054R1",
+"sysTopics": [
+{
+"sysTopicID": "6",
+"sysTopicName": "社会科学"
+},
+{
+"sysTopicID": "41",
+"sysTopicName": "商业"
+}
+],
+"difficulty": "1",
+"currQuestIdx": "14",
+"finishedStatus": "2",
+"name": "Passage 01"
+},
+{
+"searchSysTopicIDs": [
+"8",
+"44"
+],
+"totalQuest": "14",
+"id": "TPO-054R2",
+"sysTopics": [
+{
+"sysTopicID": "8",
+"sysTopicName": "生命科学"
+},
+{
+"sysTopicID": "44",
+"sysTopicName": "生物学"
+}
+],
+"difficulty": "2",
+"currQuestIdx": "14",
+"finishedStatus": "2",
+"name": "Passage 02"
+},
+{
+"searchSysTopicIDs": [
+"8",
+"44"
+],
+"totalQuest": "13",
+"id": "TPO-054R3",
+"sysTopics": [
+{
+"sysTopicID": "8",
+"sysTopicName": "生命科学"
+},
+{
+"sysTopicID": "44",
+"sysTopicName": "生物学"
+}
+],
+"difficulty": "1",
+"currQuestIdx": "0",
+"finishedStatus": "0",
+"name": "Passage 03"
+}
+],
+"sysPaperID": "TPO-054",
+"sysPaperName": "TPO 54"
+},
+{
+"questItems": [
+{
+"searchSysTopicIDs": [
+"6",
+"38"
+],
+"totalQuest": "14",
+"id": "TPO-053R1",
+"sysTopics": [
+{
+"sysTopicID": "6",
+"sysTopicName": "社会科学"
+},
+{
+"sysTopicID": "38",
+"sysTopicName": "历史"
+}
+],
+"difficulty": "1",
+"currQuestIdx": "0",
+"finishedStatus": "0",
+"name": "Passage 01"
+},
+{
+"searchSysTopicIDs": [
+"5",
+"33"
+],
+"totalQuest": "14",
+"id": "TPO-053R2",
+"sysTopics": [
+{
+"sysTopicID": "5",
+"sysTopicName": "自然科学"
+},
+{
+"sysTopicID": "33",
+"sysTopicName": "生态学"
+}
+],
+"difficulty": "1",
+"currQuestIdx": "13",
+"finishedStatus": "1",
+"name": "Passage 02"
+},
+{
+"searchSysTopicIDs": [
+"6",
+"35"
+],
+"totalQuest": "14",
+"id": "TPO-053R3",
+"sysTopics": [
+{
+"sysTopicID": "6",
+"sysTopicName": "社会科学"
+},
+{
+"sysTopicID": "35",
+"sysTopicName": "考古学"
+}
+],
+"difficulty": "2",
+"currQuestIdx": "13",
+"finishedStatus": "1",
+"name": "Passage 03"
+}
+],
+"sysPaperID": "TPO-053",
+"sysPaperName": "TPO 53"
+},
+{
+"questItems": [
+{
+"searchSysTopicIDs": [
+"5",
+"29"
+],
+"totalQuest": "14",
+"id": "TPO-052R1",
+"sysTopics": [
+{
+"sysTopicID": "5",
+"sysTopicName": "自然科学"
+},
+{
+"sysTopicID": "29",
+"sysTopicName": "地理学"
+}
+],
+"difficulty": "2",
+"currQuestIdx": "0",
+"finishedStatus": "0",
+"name": "Passage 01"
+},
+{
+"searchSysTopicIDs": [
+"6",
+"35"
+],
+"totalQuest": "14",
+"id": "TPO-052R2",
+"sysTopics": [
+{
+"sysTopicID": "6",
+"sysTopicName": "社会科学"
+},
+{
+"sysTopicID": "35",
+"sysTopicName": "考古学"
+}
+],
+"difficulty": "1",
+"currQuestIdx": "0",
+"finishedStatus": "0",
+"name": "Passage 02"
+},
+{
+"searchSysTopicIDs": [
+"5",
+"34"
+],
+"totalQuest": "14",
+"id": "TPO-052R3",
+"sysTopics": [
+{
+"sysTopicID": "5",
+"sysTopicName": "自然科学"
+},
+{
+"sysTopicID": "34",
+"sysTopicName": "农业"
+}
+],
+"difficulty": "2",
+"currQuestIdx": "0",
+"finishedStatus": "0",
+"name": "Passage 03"
+}
+],
+"sysPaperID": "TPO-052",
+"sysPaperName": "TPO 52"
+},
+{
+"questItems": [
+{
+"searchSysTopicIDs": [
+"6",
+"38"
+],
+"totalQuest": "14",
+"id": "TPO-051R1",
+"sysTopics": [
+{
+"sysTopicID": "6",
+"sysTopicName": "社会科学"
+},
+{
+"sysTopicID": "38",
+"sysTopicName": "历史"
+}
+],
+"difficulty": "2",
+"currQuestIdx": "14",
+"finishedStatus": "2",
+"name": "Passage 01"
+},
+{
+"searchSysTopicIDs": [
+"5",
+"30"
+],
+"totalQuest": "14",
+"id": "TPO-051R2",
+"sysTopics": [
+{
+"sysTopicID": "5",
+"sysTopicName": "自然科学"
+},
+{
+"sysTopicID": "30",
+"sysTopicName": "天文学"
+}
+],
+"difficulty": "1",
+"currQuestIdx": "0",
+"finishedStatus": "0",
+"name": "Passage 02"
+},
+{
+"searchSysTopicIDs": [
+"6",
+"39"
+],
+"totalQuest": "14",
+"id": "TPO-051R3",
+"sysTopics": [
+{
+"sysTopicID": "6",
+"sysTopicName": "社会科学"
+},
+{
+"sysTopicID": "39",
+"sysTopicName": "人类学"
+}
+],
+"difficulty": "1",
+"currQuestIdx": "0",
+"finishedStatus": "0",
+"name": "Passage 03"
+}
+],
+"sysPaperID": "TPO-051",
+"sysPaperName": "TPO 51"
+},
+{
+"questItems": [
+{
+"searchSysTopicIDs": [
+"6",
+"36"
+],
+"totalQuest": "14",
+"id": "TPO-050R1",
+"sysTopics": [
+{
+"sysTopicID": "6",
+"sysTopicName": "社会科学"
+},
+{
+"sysTopicID": "36",
+"sysTopicName": "社会学"
+}
+],
+"difficulty": "1",
+"currQuestIdx": "0",
+"finishedStatus": "0",
+"name": "Passage 01"
+},
+{
+"searchSysTopicIDs": [
+"6",
+"38"
+],
+"totalQuest": "14",
+"id": "TPO-050R2",
+"sysTopics": [
+{
+"sysTopicID": "6",
+"sysTopicName": "社会科学"
+},
+{
+"sysTopicID": "38",
+"sysTopicName": "历史"
+}
+],
+"difficulty": "2",
+"currQuestIdx": "0",
+"finishedStatus": "0",
+"name": "Passage 02"
+},
+{
+"searchSysTopicIDs": [
+"5",
+"30"
+],
+"totalQuest": "14",
+"id": "TPO-050R3",
+"sysTopics": [
+{
+"sysTopicID": "5",
+"sysTopicName": "自然科学"
+},
+{
+"sysTopicID": "30",
+"sysTopicName": "天文学"
+}
+],
+"difficulty": "1",
+"currQuestIdx": "0",
+"finishedStatus": "0",
+"name": "Passage 03"
+}
+],
+"sysPaperID": "TPO-050",
+"sysPaperName": "TPO 50"
+},
+{
+"questItems": [
+{
+"searchSysTopicIDs": [
+"5",
+"29"
+],
+"totalQuest": "14",
+"id": "TPO-049R1",
+"sysTopics": [
+{
+"sysTopicID": "5",
+"sysTopicName": "自然科学"
+},
+{
+"sysTopicID": "29",
+"sysTopicName": "地理学"
+}
+],
+"difficulty": "1",
+"currQuestIdx": "14",
+"finishedStatus": "2",
+"name": "Passage 01"
+},
+{
+"searchSysTopicIDs": [
+"6",
+"38"
+],
+"totalQuest": "14",
+"id": "TPO-049R2",
+"sysTopics": [
+{
+"sysTopicID": "6",
+"sysTopicName": "社会科学"
+},
+{
+"sysTopicID": "38",
+"sysTopicName": "历史"
+}
+],
+"difficulty": "1",
+"currQuestIdx": "14",
+"finishedStatus": "2",
+"name": "Passage 02"
+},
+{
+"searchSysTopicIDs": [
+"6",
+"38"
+],
+"totalQuest": "14",
+"id": "TPO-049R3",
+"sysTopics": [
+{
+"sysTopicID": "6",
+"sysTopicName": "社会科学"
+},
+{
+"sysTopicID": "38",
+"sysTopicName": "历史"
+}
+],
+"difficulty": "0",
+"currQuestIdx": "14",
+"finishedStatus": "2",
+"name": "Passage 03"
+}
+],
+"sysPaperID": "TPO-049",
+"sysPaperName": "TPO 49"
+},
+{
+"questItems": [
+{
+"searchSysTopicIDs": [
+"6",
+"40"
+],
+"totalQuest": "14",
+"id": "TPO-048R1",
+"sysTopics": [
+{
+"sysTopicID": "6",
+"sysTopicName": "社会科学"
+},
+{
+"sysTopicID": "40",
+"sysTopicName": "人口统计学"
+}
+],
+"difficulty": "1",
+"currQuestIdx": "4",
+"finishedStatus": "1",
+"name": "Passage 01"
+},
+{
+"searchSysTopicIDs": [
+"6",
+"35"
+],
+"totalQuest": "14",
+"id": "TPO-048R2",
+"sysTopics": [
+{
+"sysTopicID": "6",
+"sysTopicName": "社会科学"
+},
+{
+"sysTopicID": "35",
+"sysTopicName": "考古学"
+}
+],
+"difficulty": "0",
+"currQuestIdx": "5",
+"finishedStatus": "1",
+"name": "Passage 02"
+},
+{
+"searchSysTopicIDs": [
+"5",
+"31"
+],
+"totalQuest": "14",
+"id": "TPO-048R3",
+"sysTopics": [
+{
+"sysTopicID": "5",
+"sysTopicName": "自然科学"
+},
+{
+"sysTopicID": "31",
+"sysTopicName": "气象学"
+}
+],
+"difficulty": "0",
+"currQuestIdx": "0",
+"finishedStatus": "0",
+"name": "Passage 03"
+}
+],
+"sysPaperID": "TPO-048",
+"sysPaperName": "TPO 48"
+},
+{
+"questItems": [
+{
+"searchSysTopicIDs": [
+"6",
+"36"
+],
+"totalQuest": "14",
+"id": "TPO-047R1",
+"sysTopics": [
+{
+"sysTopicID": "6",
+"sysTopicName": "社会科学"
+},
+{
+"sysTopicID": "36",
+"sysTopicName": "社会学"
+}
+],
+"difficulty": "0",
+"currQuestIdx": "0",
+"finishedStatus": "0",
+"name": "Passage 01"
+},
+{
+"searchSysTopicIDs": [
+"8",
+"44"
+],
+"totalQuest": "14",
+"id": "TPO-047R2",
+"sysTopics": [
+{
+"sysTopicID": "8",
+"sysTopicName": "生命科学"
+},
+{
+"sysTopicID": "44",
+"sysTopicName": "生物学"
+}
+],
+"difficulty": "1",
+"currQuestIdx": "0",
+"finishedStatus": "0",
+"name": "Passage 02"
+},
+{
+"searchSysTopicIDs": [
+"8",
+"44"
+],
+"totalQuest": "14",
+"id": "TPO-047R3",
+"sysTopics": [
+{
+"sysTopicID": "8",
+"sysTopicName": "生命科学"
+},
+{
+"sysTopicID": "44",
+"sysTopicName": "生物学"
+}
+],
+"difficulty": "1",
+"currQuestIdx": "0",
+"finishedStatus": "0",
+"name": "Passage 03"
+}
+],
+"sysPaperID": "TPO-047",
+"sysPaperName": "TPO 47"
+},
+{
+"questItems": [
+{
+"searchSysTopicIDs": [
+"6",
+"38"
+],
+"totalQuest": "14",
+"id": "TPO-046R1",
+"sysTopics": [
+{
+"sysTopicID": "6",
+"sysTopicName": "社会科学"
+},
+{
+"sysTopicID": "38",
+"sysTopicName": "历史"
+}
+],
+"difficulty": "1",
+"currQuestIdx": "0",
+"finishedStatus": "0",
+"name": "Passage 01"
+},
+{
+"searchSysTopicIDs": [
+"6",
+"36"
+],
+"totalQuest": "14",
+"id": "TPO-046R2",
+"sysTopics": [
+{
+"sysTopicID": "6",
+"sysTopicName": "社会科学"
+},
+{
+"sysTopicID": "36",
+"sysTopicName": "社会学"
+}
+],
+"difficulty": "1",
+"currQuestIdx": "0",
+"finishedStatus": "0",
+"name": "Passage 02"
+},
+{
+"searchSysTopicIDs": [
+"5",
+"33"
+],
+"totalQuest": "14",
+"id": "TPO-046R3",
+"sysTopics": [
+{
+"sysTopicID": "5",
+"sysTopicName": "自然科学"
+},
+{
+"sysTopicID": "33",
+"sysTopicName": "生态学"
+}
+],
+"difficulty": "1",
+"currQuestIdx": "0",
+"finishedStatus": "0",
+"name": "Passage 03"
+}
+],
+"sysPaperID": "TPO-046",
+"sysPaperName": "TPO 46"
+},
+{
+"questItems": [
+{
+"searchSysTopicIDs": [
+"5",
+"33"
+],
+"totalQuest": "14",
+"id": "TPO-045R1",
+"sysTopics": [
+{
+"sysTopicID": "5",
+"sysTopicName": "自然科学"
+},
+{
+"sysTopicID": "33",
+"sysTopicName": "生态学"
+}
+],
+"difficulty": "1",
+"currQuestIdx": "0",
+"finishedStatus": "0",
+"name": "Passage 01"
+},
+{
+"searchSysTopicIDs": [
+"5",
+"33"
+],
+"totalQuest": "14",
+"id": "TPO-045R2",
+"sysTopics": [
+{
+"sysTopicID": "5",
+"sysTopicName": "自然科学"
+},
+{
+"sysTopicID": "33",
+"sysTopicName": "生态学"
+}
+],
+"difficulty": "1",
+"currQuestIdx": "0",
+"finishedStatus": "0",
+"name": "Passage 02"
+},
+{
+"searchSysTopicIDs": [
+"5",
+"33"
+],
+"totalQuest": "14",
+"id": "TPO-045R3",
+"sysTopics": [
+{
+"sysTopicID": "5",
+"sysTopicName": "自然科学"
+},
+{
+"sysTopicID": "33",
+"sysTopicName": "生态学"
+}
+],
+"difficulty": "1",
+"currQuestIdx": "0",
+"finishedStatus": "0",
+"name": "Passage 03"
+}
+],
+"sysPaperID": "TPO-045",
+"sysPaperName": "TPO 45"
+},
+{
+"questItems": [
+{
+"searchSysTopicIDs": [
+"8",
+"44"
+],
+"totalQuest": "14",
+"id": "TPO-044R1",
+"sysTopics": [
+{
+"sysTopicID": "8",
+"sysTopicName": "生命科学"
+},
+{
+"sysTopicID": "44",
+"sysTopicName": "生物学"
+}
+],
+"difficulty": "1",
+"currQuestIdx": "0",
+"finishedStatus": "0",
+"name": "Passage 01"
+},
+{
+"searchSysTopicIDs": [
+"7",
+"43"
+],
+"totalQuest": "14",
+"id": "TPO-044R2",
+"sysTopics": [
+{
+"sysTopicID": "7",
+"sysTopicName": "文化艺术"
+},
+{
+"sysTopicID": "43",
+"sysTopicName": "艺术"
+}
+],
+"difficulty": "2",
+"currQuestIdx": "0",
+"finishedStatus": "0",
+"name": "Passage 02"
+},
+{
+"searchSysTopicIDs": [
+"8",
+"45"
+],
+"totalQuest": "14",
+"id": "TPO-044R3",
+"sysTopics": [
+{
+"sysTopicID": "8",
+"sysTopicName": "生命科学"
+},
+{
+"sysTopicID": "45",
+"sysTopicName": "植物学"
+}
+],
+"difficulty": "1",
+"currQuestIdx": "0",
+"finishedStatus": "0",
+"name": "Passage 03"
+}
+],
+"sysPaperID": "TPO-044",
+"sysPaperName": "TPO 44"
+},
+{
+"questItems": [
+{
+"searchSysTopicIDs": [
+"6",
+"38"
+],
+"totalQuest": "14",
+"id": "TPO-043R1",
+"sysTopics": [
+{
+"sysTopicID": "6",
+"sysTopicName": "社会科学"
+},
+{
+"sysTopicID": "38",
+"sysTopicName": "历史"
+}
+],
+"difficulty": "1",
+"currQuestIdx": "0",
+"finishedStatus": "0",
+"name": "Passage 01"
+},
+{
+"searchSysTopicIDs": [
+"5",
+"32"
+],
+"totalQuest": "14",
+"id": "TPO-043R2",
+"sysTopics": [
+{
+"sysTopicID": "5",
+"sysTopicName": "自然科学"
+},
+{
+"sysTopicID": "32",
+"sysTopicName": "化学"
+}
+],
+"difficulty": "1",
+"currQuestIdx": "0",
+"finishedStatus": "0",
+"name": "Passage 02"
+},
+{
+"searchSysTopicIDs": [
+"5",
+"31"
+],
+"totalQuest": "14",
+"id": "TPO-043R3",
+"sysTopics": [
+{
+"sysTopicID": "5",
+"sysTopicName": "自然科学"
+},
+{
+"sysTopicID": "31",
+"sysTopicName": "气象学"
+}
+],
+"difficulty": "1",
+"currQuestIdx": "0",
+"finishedStatus": "0",
+"name": "Passage 03"
+}
+],
+"sysPaperID": "TPO-043",
+"sysPaperName": "TPO 43"
+},
+{
+"questItems": [
+{
+"searchSysTopicIDs": [
+"8",
+"44"
+],
+"totalQuest": "14",
+"id": "TPO-042R1",
+"sysTopics": [
+{
+"sysTopicID": "8",
+"sysTopicName": "生命科学"
+},
+{
+"sysTopicID": "44",
+"sysTopicName": "生物学"
+}
+],
+"difficulty": "1",
+"currQuestIdx": "0",
+"finishedStatus": "0",
+"name": "Passage 01"
+},
+{
+"searchSysTopicIDs": [
+"5",
+"33"
+],
+"totalQuest": "14",
+"id": "TPO-042R2",
+"sysTopics": [
+{
+"sysTopicID": "5",
+"sysTopicName": "自然科学"
+},
+{
+"sysTopicID": "33",
+"sysTopicName": "生态学"
+}
+],
+"difficulty": "1",
+"currQuestIdx": "0",
+"finishedStatus": "0",
+"name": "Passage 02"
+},
+{
+"searchSysTopicIDs": [
+"5",
+"30"
+],
+"totalQuest": "13",
+"id": "TPO-042R3",
+"sysTopics": [
+{
+"sysTopicID": "5",
+"sysTopicName": "自然科学"
+},
+{
+"sysTopicID": "30",
+"sysTopicName": "天文学"
+}
+],
+"difficulty": "2",
+"currQuestIdx": "0",
+"finishedStatus": "0",
+"name": "Passage 03"
+}
+],
+"sysPaperID": "TPO-042",
+"sysPaperName": "TPO 42"
+},
+{
+"questItems": [
+{
+"searchSysTopicIDs": [
+"7",
+"43"
+],
+"totalQuest": "14",
+"id": "TPO-041R1",
+"sysTopics": [
+{
+"sysTopicID": "7",
+"sysTopicName": "文化艺术"
+},
+{
+"sysTopicID": "43",
+"sysTopicName": "艺术"
+}
+],
+"difficulty": "0",
+"currQuestIdx": "0",
+"finishedStatus": "0",
+"name": "Passage 01"
+},
+{
+"searchSysTopicIDs": [
+"5",
+"30"
+],
+"totalQuest": "13",
+"id": "TPO-041R2",
+"sysTopics": [
+{
+"sysTopicID": "5",
+"sysTopicName": "自然科学"
+},
+{
+"sysTopicID": "30",
+"sysTopicName": "天文学"
+}
+],
+"difficulty": "1",
+"currQuestIdx": "0",
+"finishedStatus": "0",
+"name": "Passage 02"
+},
+{
+"searchSysTopicIDs": [
+"6",
+"36"
+],
+"totalQuest": "14",
+"id": "TPO-041R3",
+"sysTopics": [
+{
+"sysTopicID": "6",
+"sysTopicName": "社会科学"
+},
+{
+"sysTopicID": "36",
+"sysTopicName": "社会学"
+}
+],
+"difficulty": "1",
+"currQuestIdx": "0",
+"finishedStatus": "0",
+"name": "Passage 03"
+}
+],
+"sysPaperID": "TPO-041",
+"sysPaperName": "TPO 41"
+},
+{
+"questItems": [
+{
+"searchSysTopicIDs": [
+"6",
+"38"
+],
+"totalQuest": "14",
+"id": "TPO-040R1",
+"sysTopics": [
+{
+"sysTopicID": "6",
+"sysTopicName": "社会科学"
+},
+{
+"sysTopicID": "38",
+"sysTopicName": "历史"
+}
+],
+"difficulty": "1",
+"currQuestIdx": "0",
+"finishedStatus": "0",
+"name": "Passage 01"
+},
+{
+"searchSysTopicIDs": [
+"5",
+"33"
+],
+"totalQuest": "14",
+"id": "TPO-040R2",
+"sysTopics": [
+{
+"sysTopicID": "5",
+"sysTopicName": "自然科学"
+},
+{
+"sysTopicID": "33",
+"sysTopicName": "生态学"
+}
+],
+"difficulty": "1",
+"currQuestIdx": "0",
+"finishedStatus": "0",
+"name": "Passage 02"
+},
+{
+"searchSysTopicIDs": [
+"8",
+"44"
+],
+"totalQuest": "14",
+"id": "TPO-040R3",
+"sysTopics": [
+{
+"sysTopicID": "8",
+"sysTopicName": "生命科学"
+},
+{
+"sysTopicID": "44",
+"sysTopicName": "生物学"
+}
+],
+"difficulty": "0",
+"currQuestIdx": "0",
+"finishedStatus": "0",
+"name": "Passage 03"
+}
+],
+"sysPaperID": "TPO-040",
+"sysPaperName": "TPO 40"
+},
+{
+"questItems": [
+{
+"searchSysTopicIDs": [
+"7",
+"43"
+],
+"totalQuest": "14",
+"id": "TPO-034R1",
+"sysTopics": [
+{
+"sysTopicID": "7",
+"sysTopicName": "文化艺术"
+},
+{
+"sysTopicID": "43",
+"sysTopicName": "艺术"
+}
+],
+"difficulty": "1",
+"currQuestIdx": "0",
+"finishedStatus": "0",
+"name": "Passage 01"
+},
+{
+"searchSysTopicIDs": [
+"6",
+"38"
+],
+"totalQuest": "14",
+"id": "TPO-034R2",
+"sysTopics": [
+{
+"sysTopicID": "6",
+"sysTopicName": "社会科学"
+},
+{
+"sysTopicID": "38",
+"sysTopicName": "历史"
+}
+],
+"difficulty": "1",
+"currQuestIdx": "0",
+"finishedStatus": "0",
+"name": "Passage 02"
+},
+{
+"searchSysTopicIDs": [
+"8",
+"44"
+],
+"totalQuest": "14",
+"id": "TPO-034R3",
+"sysTopics": [
+{
+"sysTopicID": "8",
+"sysTopicName": "生命科学"
+},
+{
+"sysTopicID": "44",
+"sysTopicName": "生物学"
+}
+],
+"difficulty": "2",
+"currQuestIdx": "0",
+"finishedStatus": "0",
+"name": "Passage 03"
+}
+],
+"sysPaperID": "TPO-034",
+"sysPaperName": "TPO 34"
+},
+{
+"questItems": [
+{
+"searchSysTopicIDs": [
+"6",
+"38"
+],
+"totalQuest": "14",
+"id": "TPO-033R1",
+"sysTopics": [
+{
+"sysTopicID": "6",
+"sysTopicName": "社会科学"
+},
+{
+"sysTopicID": "38",
+"sysTopicName": "历史"
+}
+],
+"difficulty": "1",
+"currQuestIdx": "0",
+"finishedStatus": "0",
+"name": "Passage 01"
+},
+{
+"searchSysTopicIDs": [
+"6",
+"36"
+],
+"totalQuest": "14",
+"id": "TPO-033R2",
+"sysTopics": [
+{
+"sysTopicID": "6",
+"sysTopicName": "社会科学"
+},
+{
+"sysTopicID": "36",
+"sysTopicName": "社会学"
+}
+],
+"difficulty": "1",
+"currQuestIdx": "0",
+"finishedStatus": "0",
+"name": "Passage 02"
+},
+{
+"searchSysTopicIDs": [
+"6",
+"35"
+],
+"totalQuest": "14",
+"id": "TPO-033R3",
+"sysTopics": [
+{
+"sysTopicID": "6",
+"sysTopicName": "社会科学"
+},
+{
+"sysTopicID": "35",
+"sysTopicName": "考古学"
+}
+],
+"difficulty": "1",
+"currQuestIdx": "0",
+"finishedStatus": "0",
+"name": "Passage 03"
+}
+],
+"sysPaperID": "TPO-033",
+"sysPaperName": "TPO 33"
+},
+{
+"questItems": [
+{
+"searchSysTopicIDs": [
+"8",
+"45"
+],
+"totalQuest": "14",
+"id": "TPO-032R1",
+"sysTopics": [
+{
+"sysTopicID": "8",
+"sysTopicName": "生命科学"
+},
+{
+"sysTopicID": "45",
+"sysTopicName": "植物学"
+}
+],
+"difficulty": "1",
+"currQuestIdx": "0",
+"finishedStatus": "0",
+"name": "Passage 01"
+},
+{
+"searchSysTopicIDs": [
+"6",
+"40"
+],
+"totalQuest": "14",
+"id": "TPO-032R2",
+"sysTopics": [
+{
+"sysTopicID": "6",
+"sysTopicName": "社会科学"
+},
+{
+"sysTopicID": "40",
+"sysTopicName": "人口统计学"
+}
+],
+"difficulty": "1",
+"currQuestIdx": "0",
+"finishedStatus": "0",
+"name": "Passage 02"
+},
+{
+"searchSysTopicIDs": [
+"8",
+"44"
+],
+"totalQuest": "13",
+"id": "TPO-032R3",
+"sysTopics": [
+{
+"sysTopicID": "8",
+"sysTopicName": "生命科学"
+},
+{
+"sysTopicID": "44",
+"sysTopicName": "生物学"
+}
+],
+"difficulty": "1",
+"currQuestIdx": "0",
+"finishedStatus": "0",
+"name": "Passage 03"
+}
+],
+"sysPaperID": "TPO-032",
+"sysPaperName": "TPO 32"
+},
+{
+"questItems": [
+{
+"searchSysTopicIDs": [
+"8",
+"44"
+],
+"totalQuest": "14",
+"id": "TPO-031R1",
+"sysTopics": [
+{
+"sysTopicID": "8",
+"sysTopicName": "生命科学"
+},
+{
+"sysTopicID": "44",
+"sysTopicName": "生物学"
+}
+],
+"difficulty": "1",
+"currQuestIdx": "0",
+"finishedStatus": "0",
+"name": "Passage 01"
+},
+{
+"searchSysTopicIDs": [
+"6",
+"36"
+],
+"totalQuest": "14",
+"id": "TPO-031R2",
+"sysTopics": [
+{
+"sysTopicID": "6",
+"sysTopicName": "社会科学"
+},
+{
+"sysTopicID": "36",
+"sysTopicName": "社会学"
+}
+],
+"difficulty": "1",
+"currQuestIdx": "0",
+"finishedStatus": "0",
+"name": "Passage 02"
+},
+{
+"searchSysTopicIDs": [
+"5",
+"33"
+],
+"totalQuest": "14",
+"id": "TPO-031R3",
+"sysTopics": [
+{
+"sysTopicID": "5",
+"sysTopicName": "自然科学"
+},
+{
+"sysTopicID": "33",
+"sysTopicName": "生态学"
+}
+],
+"difficulty": "1",
+"currQuestIdx": "0",
+"finishedStatus": "0",
+"name": "Passage 03"
+}
+],
+"sysPaperID": "TPO-031",
+"sysPaperName": "TPO 31"
+},
+{
+"questItems": [
+{
+"searchSysTopicIDs": [
+"6",
+"37"
+],
+"totalQuest": "14",
+"id": "TPO-030R1",
+"sysTopics": [
+{
+"sysTopicID": "6",
+"sysTopicName": "社会科学"
+},
+{
+"sysTopicID": "37",
+"sysTopicName": "心理学"
+}
+],
+"difficulty": "1",
+"currQuestIdx": "0",
+"finishedStatus": "0",
+"name": "Passage 01"
+},
+{
+"searchSysTopicIDs": [
+"8",
+"44"
+],
+"totalQuest": "13",
+"id": "TPO-030R2",
+"sysTopics": [
+{
+"sysTopicID": "8",
+"sysTopicName": "生命科学"
+},
+{
+"sysTopicID": "44",
+"sysTopicName": "生物学"
+}
+],
+"difficulty": "1",
+"currQuestIdx": "0",
+"finishedStatus": "0",
+"name": "Passage 02"
+},
+{
+"searchSysTopicIDs": [
+"6",
+"38"
+],
+"totalQuest": "14",
+"id": "TPO-030R3",
+"sysTopics": [
+{
+"sysTopicID": "6",
+"sysTopicName": "社会科学"
+},
+{
+"sysTopicID": "38",
+"sysTopicName": "历史"
+}
+],
+"difficulty": "1",
+"currQuestIdx": "0",
+"finishedStatus": "0",
+"name": "Passage 03"
+}
+],
+"sysPaperID": "TPO-030",
+"sysPaperName": "TPO 30"
+},
+{
+"questItems": [
+{
+"searchSysTopicIDs": [
+"7",
+"43"
+],
+"totalQuest": "14",
+"id": "TPO-029R1",
+"sysTopics": [
+{
+"sysTopicID": "7",
+"sysTopicName": "文化艺术"
+},
+{
+"sysTopicID": "43",
+"sysTopicName": "艺术"
+}
+],
+"difficulty": "1",
+"currQuestIdx": "0",
+"finishedStatus": "0",
+"name": "Passage 01"
+},
+{
+"searchSysTopicIDs": [
+"6",
+"36"
+],
+"totalQuest": "14",
+"id": "TPO-029R2",
+"sysTopics": [
+{
+"sysTopicID": "6",
+"sysTopicName": "社会科学"
+},
+{
+"sysTopicID": "36",
+"sysTopicName": "社会学"
+}
+],
+"difficulty": "1",
+"currQuestIdx": "0",
+"finishedStatus": "0",
+"name": "Passage 02"
+},
+{
+"searchSysTopicIDs": [
+"6",
+"38"
+],
+"totalQuest": "14",
+"id": "TPO-029R3",
+"sysTopics": [
+{
+"sysTopicID": "6",
+"sysTopicName": "社会科学"
+},
+{
+"sysTopicID": "38",
+"sysTopicName": "历史"
+}
+],
+"difficulty": "1",
+"currQuestIdx": "0",
+"finishedStatus": "0",
+"name": "Passage 03"
+}
+],
+"sysPaperID": "TPO-029",
+"sysPaperName": "TPO 29"
+},
+{
+"questItems": [
+{
+"searchSysTopicIDs": [
+"5",
+"29"
+],
+"totalQuest": "14",
+"id": "TPO-028R1",
+"sysTopics": [
+{
+"sysTopicID": "5",
+"sysTopicName": "自然科学"
+},
+{
+"sysTopicID": "29",
+"sysTopicName": "地理学"
+}
+],
+"difficulty": "1",
+"currQuestIdx": "14",
+"finishedStatus": "2",
+"name": "Passage 01"
+},
+{
+"searchSysTopicIDs": [
+"6",
+"39"
+],
+"totalQuest": "14",
+"id": "TPO-028R2",
+"sysTopics": [
+{
+"sysTopicID": "6",
+"sysTopicName": "社会科学"
+},
+{
+"sysTopicID": "39",
+"sysTopicName": "人类学"
+}
+],
+"difficulty": "2",
+"currQuestIdx": "0",
+"finishedStatus": "0",
+"name": "Passage 02"
+},
+{
+"searchSysTopicIDs": [
+"8",
+"44"
+],
+"totalQuest": "14",
+"id": "TPO-028R3",
+"sysTopics": [
+{
+"sysTopicID": "8",
+"sysTopicName": "生命科学"
+},
+{
+"sysTopicID": "44",
+"sysTopicName": "生物学"
+}
+],
+"difficulty": "1",
+"currQuestIdx": "0",
+"finishedStatus": "0",
+"name": "Passage 03"
+}
+],
+"sysPaperID": "TPO-028",
+"sysPaperName": "TPO 28"
+},
+{
+"questItems": [
+{
+"searchSysTopicIDs": [
+"7",
+"43"
+],
+"totalQuest": "14",
+"id": "TPO-027R1",
+"sysTopics": [
+{
+"sysTopicID": "7",
+"sysTopicName": "文化艺术"
+},
+{
+"sysTopicID": "43",
+"sysTopicName": "艺术"
+}
+],
+"difficulty": "1",
+"currQuestIdx": "0",
+"finishedStatus": "0",
+"name": "Passage 01"
+},
+{
+"searchSysTopicIDs": [
+"5",
+"29"
+],
+"totalQuest": "14",
+"id": "TPO-027R2",
+"sysTopics": [
+{
+"sysTopicID": "5",
+"sysTopicName": "自然科学"
+},
+{
+"sysTopicID": "29",
+"sysTopicName": "地理学"
+}
+],
+"difficulty": "1",
+"currQuestIdx": "0",
+"finishedStatus": "0",
+"name": "Passage 02"
+},
+{
+"searchSysTopicIDs": [
+"8",
+"44"
+],
+"totalQuest": "14",
+"id": "TPO-027R3",
+"sysTopics": [
+{
+"sysTopicID": "8",
+"sysTopicName": "生命科学"
+},
+{
+"sysTopicID": "44",
+"sysTopicName": "生物学"
+}
+],
+"difficulty": "1",
+"currQuestIdx": "0",
+"finishedStatus": "0",
+"name": "Passage 03"
+}
+],
+"sysPaperID": "TPO-027",
+"sysPaperName": "TPO 27"
+},
+{
+"questItems": [
+{
+"searchSysTopicIDs": [
+"6",
+"38"
+],
+"totalQuest": "14",
+"id": "TPO-026R1",
+"sysTopics": [
+{
+"sysTopicID": "6",
+"sysTopicName": "社会科学"
+},
+{
+"sysTopicID": "38",
+"sysTopicName": "历史"
+}
+],
+"difficulty": "1",
+"currQuestIdx": "0",
+"finishedStatus": "0",
+"name": "Passage 01"
+},
+{
+"searchSysTopicIDs": [
+"8",
+"44"
+],
+"totalQuest": "13",
+"id": "TPO-026R2",
+"sysTopics": [
+{
+"sysTopicID": "8",
+"sysTopicName": "生命科学"
+},
+{
+"sysTopicID": "44",
+"sysTopicName": "生物学"
+}
+],
+"difficulty": "1",
+"currQuestIdx": "0",
+"finishedStatus": "0",
+"name": "Passage 02"
+},
+{
+"searchSysTopicIDs": [
+"6",
+"38"
+],
+"totalQuest": "14",
+"id": "TPO-026R3",
+"sysTopics": [
+{
+"sysTopicID": "6",
+"sysTopicName": "社会科学"
+},
+{
+"sysTopicID": "38",
+"sysTopicName": "历史"
+}
+],
+"difficulty": "1",
+"currQuestIdx": "0",
+"finishedStatus": "0",
+"name": "Passage 03"
+}
+],
+"sysPaperID": "TPO-026",
+"sysPaperName": "TPO 26"
+},
+{
+"questItems": [
+{
+"searchSysTopicIDs": [
+"5",
+"30"
+],
+"totalQuest": "14",
+"id": "TPO-025R1",
+"sysTopics": [
+{
+"sysTopicID": "5",
+"sysTopicName": "自然科学"
+},
+{
+"sysTopicID": "30",
+"sysTopicName": "天文学"
+}
+],
+"difficulty": "0",
+"currQuestIdx": "0",
+"finishedStatus": "0",
+"name": "Passage 01"
+},
+{
+"searchSysTopicIDs": [
+"6",
+"41"
+],
+"totalQuest": "14",
+"id": "TPO-025R2",
+"sysTopics": [
+{
+"sysTopicID": "6",
+"sysTopicName": "社会科学"
+},
+{
+"sysTopicID": "41",
+"sysTopicName": "商业"
+}
+],
+"difficulty": "1",
+"currQuestIdx": "0",
+"finishedStatus": "0",
+"name": "Passage 02"
+},
+{
+"searchSysTopicIDs": [
+"8",
+"44"
+],
+"totalQuest": "14",
+"id": "TPO-025R3",
+"sysTopics": [
+{
+"sysTopicID": "8",
+"sysTopicName": "生命科学"
+},
+{
+"sysTopicID": "44",
+"sysTopicName": "生物学"
+}
+],
+"difficulty": "1",
+"currQuestIdx": "0",
+"finishedStatus": "0",
+"name": "Passage 03"
+}
+],
+"sysPaperID": "TPO-025",
+"sysPaperName": "TPO 25"
+},
+{
+"questItems": [
+{
+"searchSysTopicIDs": [
+"5",
+"33"
+],
+"totalQuest": "14",
+"id": "TPO-024R1",
+"sysTopics": [
+{
+"sysTopicID": "5",
+"sysTopicName": "自然科学"
+},
+{
+"sysTopicID": "33",
+"sysTopicName": "生态学"
+}
+],
+"difficulty": "1",
+"currQuestIdx": "0",
+"finishedStatus": "0",
+"name": "Passage 01"
+},
+{
+"searchSysTopicIDs": [
+"8",
+"44"
+],
+"totalQuest": "13",
+"id": "TPO-024R2",
+"sysTopics": [
+{
+"sysTopicID": "8",
+"sysTopicName": "生命科学"
+},
+{
+"sysTopicID": "44",
+"sysTopicName": "生物学"
+}
+],
+"difficulty": "0",
+"currQuestIdx": "0",
+"finishedStatus": "0",
+"name": "Passage 02"
+},
+{
+"searchSysTopicIDs": [
+"6",
+"39"
+],
+"totalQuest": "14",
+"id": "TPO-024R3",
+"sysTopics": [
+{
+"sysTopicID": "6",
+"sysTopicName": "社会科学"
+},
+{
+"sysTopicID": "39",
+"sysTopicName": "人类学"
+}
+],
+"difficulty": "1",
+"currQuestIdx": "0",
+"finishedStatus": "0",
+"name": "Passage 03"
+}
+],
+"sysPaperID": "TPO-024",
+"sysPaperName": "TPO 24"
+},
+{
+"questItems": [
+{
+"searchSysTopicIDs": [
+"5",
+"33"
+],
+"totalQuest": "14",
+"id": "TPO-023R1",
+"sysTopics": [
+{
+"sysTopicID": "5",
+"sysTopicName": "自然科学"
+},
+{
+"sysTopicID": "33",
+"sysTopicName": "生态学"
+}
+],
+"difficulty": "0",
+"currQuestIdx": "0",
+"finishedStatus": "0",
+"name": "Passage 01"
+},
+{
+"searchSysTopicIDs": [
+"5",
+"34"
+],
+"totalQuest": "14",
+"id": "TPO-023R2",
+"sysTopics": [
+{
+"sysTopicID": "5",
+"sysTopicName": "自然科学"
+},
+{
+"sysTopicID": "34",
+"sysTopicName": "农业"
+}
+],
+"difficulty": "1",
+"currQuestIdx": "0",
+"finishedStatus": "0",
+"name": "Passage 02"
+},
+{
+"searchSysTopicIDs": [
+"7",
+"43"
+],
+"totalQuest": "14",
+"id": "TPO-023R3",
+"sysTopics": [
+{
+"sysTopicID": "7",
+"sysTopicName": "文化艺术"
+},
+{
+"sysTopicID": "43",
+"sysTopicName": "艺术"
+}
+],
+"difficulty": "2",
+"currQuestIdx": "0",
+"finishedStatus": "0",
+"name": "Passage 03"
+}
+],
+"sysPaperID": "TPO-023",
+"sysPaperName": "TPO 23"
+},
+{
+"questItems": [
+{
+"searchSysTopicIDs": [
+"8",
+"45"
+],
+"totalQuest": "14",
+"id": "TPO-022R1",
+"sysTopics": [
+{
+"sysTopicID": "8",
+"sysTopicName": "生命科学"
+},
+{
+"sysTopicID": "45",
+"sysTopicName": "植物学"
+}
+],
+"difficulty": "1",
+"currQuestIdx": "0",
+"finishedStatus": "0",
+"name": "Passage 01"
+},
+{
+"searchSysTopicIDs": [
+"7",
+"43"
+],
+"totalQuest": "14",
+"id": "TPO-022R2",
+"sysTopics": [
+{
+"sysTopicID": "7",
+"sysTopicName": "文化艺术"
+},
+{
+"sysTopicID": "43",
+"sysTopicName": "艺术"
+}
+],
+"difficulty": "1",
+"currQuestIdx": "0",
+"finishedStatus": "0",
+"name": "Passage 02"
+},
+{
+"searchSysTopicIDs": [
+"5",
+"30"
+],
+"totalQuest": "14",
+"id": "TPO-022R3",
+"sysTopics": [
+{
+"sysTopicID": "5",
+"sysTopicName": "自然科学"
+},
+{
+"sysTopicID": "30",
+"sysTopicName": "天文学"
+}
+],
+"difficulty": "1",
+"currQuestIdx": "0",
+"finishedStatus": "0",
+"name": "Passage 03"
+}
+],
+"sysPaperID": "TPO-022",
+"sysPaperName": "TPO 22"
+},
+{
+"questItems": [
+{
+"searchSysTopicIDs": [
+"5",
+"29"
+],
+"totalQuest": "14",
+"id": "TPO-021R1",
+"sysTopics": [
+{
+"sysTopicID": "5",
+"sysTopicName": "自然科学"
+},
+{
+"sysTopicID": "29",
+"sysTopicName": "地理学"
+}
+],
+"difficulty": "1",
+"currQuestIdx": "0",
+"finishedStatus": "0",
+"name": "Passage 01"
+},
+{
+"searchSysTopicIDs": [
+"5",
+"34"
+],
+"totalQuest": "14",
+"id": "TPO-021R2",
+"sysTopics": [
+{
+"sysTopicID": "5",
+"sysTopicName": "自然科学"
+},
+{
+"sysTopicID": "34",
+"sysTopicName": "农业"
+}
+],
+"difficulty": "1",
+"currQuestIdx": "0",
+"finishedStatus": "0",
+"name": "Passage 02"
+},
+{
+"searchSysTopicIDs": [
+"6",
+"37"
+],
+"totalQuest": "14",
+"id": "TPO-021R3",
+"sysTopics": [
+{
+"sysTopicID": "6",
+"sysTopicName": "社会科学"
+},
+{
+"sysTopicID": "37",
+"sysTopicName": "心理学"
+}
+],
+"difficulty": "1",
+"currQuestIdx": "0",
+"finishedStatus": "0",
+"name": "Passage 03"
+}
+],
+"sysPaperID": "TPO-021",
+"sysPaperName": "TPO 21"
+},
+{
+"questItems": [
+{
+"searchSysTopicIDs": [
+"6",
+"40"
+],
+"totalQuest": "14",
+"id": "TPO-020R1",
+"sysTopics": [
+{
+"sysTopicID": "6",
+"sysTopicName": "社会科学"
+},
+{
+"sysTopicID": "40",
+"sysTopicName": "人口统计学"
+}
+],
+"difficulty": "0",
+"currQuestIdx": "0",
+"finishedStatus": "0",
+"name": "Passage 01"
+},
+{
+"searchSysTopicIDs": [
+"6",
+"39"
+],
+"totalQuest": "14",
+"id": "TPO-020R2",
+"sysTopics": [
+{
+"sysTopicID": "6",
+"sysTopicName": "社会科学"
+},
+{
+"sysTopicID": "39",
+"sysTopicName": "人类学"
+}
+],
+"difficulty": "1",
+"currQuestIdx": "0",
+"finishedStatus": "0",
+"name": "Passage 02"
+},
+{
+"searchSysTopicIDs": [
+"8",
+"44"
+],
+"totalQuest": "14",
+"id": "TPO-020R3",
+"sysTopics": [
+{
+"sysTopicID": "8",
+"sysTopicName": "生命科学"
+},
+{
+"sysTopicID": "44",
+"sysTopicName": "生物学"
+}
+],
+"difficulty": "0",
+"currQuestIdx": "0",
+"finishedStatus": "0",
+"name": "Passage 03"
+}
+],
+"sysPaperID": "TPO-020",
+"sysPaperName": "TPO 20"
+},
+{
+"questItems": [
+{
+"searchSysTopicIDs": [
+"6",
+"38"
+],
+"totalQuest": "14",
+"id": "TPO-019R1",
+"sysTopics": [
+{
+"sysTopicID": "6",
+"sysTopicName": "社会科学"
+},
+{
+"sysTopicID": "38",
+"sysTopicName": "历史"
+}
+],
+"difficulty": "1",
+"currQuestIdx": "0",
+"finishedStatus": "0",
+"name": "Passage 01"
+},
+{
+"searchSysTopicIDs": [
+"5",
+"33"
+],
+"totalQuest": "14",
+"id": "TPO-019R2",
+"sysTopics": [
+{
+"sysTopicID": "5",
+"sysTopicName": "自然科学"
+},
+{
+"sysTopicID": "33",
+"sysTopicName": "生态学"
+}
+],
+"difficulty": "1",
+"currQuestIdx": "0",
+"finishedStatus": "0",
+"name": "Passage 02"
+},
+{
+"searchSysTopicIDs": [
+"5",
+"29"
+],
+"totalQuest": "14",
+"id": "TPO-019R3",
+"sysTopics": [
+{
+"sysTopicID": "5",
+"sysTopicName": "自然科学"
+},
+{
+"sysTopicID": "29",
+"sysTopicName": "地理学"
+}
+],
+"difficulty": "1",
+"currQuestIdx": "0",
+"finishedStatus": "0",
+"name": "Passage 03"
+}
+],
+"sysPaperID": "TPO-019",
+"sysPaperName": "TPO 19"
+},
+{
+"questItems": [
+{
+"searchSysTopicIDs": [
+"6",
+"38"
+],
+"totalQuest": "14",
+"id": "TPO-018R1",
+"sysTopics": [
+{
+"sysTopicID": "6",
+"sysTopicName": "社会科学"
+},
+{
+"sysTopicID": "38",
+"sysTopicName": "历史"
+}
+],
+"difficulty": "1",
+"currQuestIdx": "0",
+"finishedStatus": "0",
+"name": "Passage 01"
+},
+{
+"searchSysTopicIDs": [
+"6",
+"37"
+],
+"totalQuest": "14",
+"id": "TPO-018R2",
+"sysTopics": [
+{
+"sysTopicID": "6",
+"sysTopicName": "社会科学"
+},
+{
+"sysTopicID": "37",
+"sysTopicName": "心理学"
+}
+],
+"difficulty": "1",
+"currQuestIdx": "0",
+"finishedStatus": "0",
+"name": "Passage 02"
+},
+{
+"searchSysTopicIDs": [
+"5",
+"31"
+],
+"totalQuest": "14",
+"id": "TPO-018R3",
+"sysTopics": [
+{
+"sysTopicID": "5",
+"sysTopicName": "自然科学"
+},
+{
+"sysTopicID": "31",
+"sysTopicName": "气象学"
+}
+],
+"difficulty": "1",
+"currQuestIdx": "0",
+"finishedStatus": "0",
+"name": "Passage 03"
+}
+],
+"sysPaperID": "TPO-018",
+"sysPaperName": "TPO 18"
+},
+{
+"questItems": [
+{
+"searchSysTopicIDs": [
+"6",
+"38"
+],
+"totalQuest": "14",
+"id": "TPO-017R1",
+"sysTopics": [
+{
+"sysTopicID": "6",
+"sysTopicName": "社会科学"
+},
+{
+"sysTopicID": "38",
+"sysTopicName": "历史"
+}
+],
+"difficulty": "1",
+"currQuestIdx": "0",
+"finishedStatus": "0",
+"name": "Passage 01"
+},
+{
+"searchSysTopicIDs": [
+"8",
+"44"
+],
+"totalQuest": "14",
+"id": "TPO-017R2",
+"sysTopics": [
+{
+"sysTopicID": "8",
+"sysTopicName": "生命科学"
+},
+{
+"sysTopicID": "44",
+"sysTopicName": "生物学"
+}
+],
+"difficulty": "1",
+"currQuestIdx": "0",
+"finishedStatus": "0",
+"name": "Passage 02"
+},
+{
+"searchSysTopicIDs": [
+"8",
+"44"
+],
+"totalQuest": "14",
+"id": "TPO-017R3",
+"sysTopics": [
+{
+"sysTopicID": "8",
+"sysTopicName": "生命科学"
+},
+{
+"sysTopicID": "44",
+"sysTopicName": "生物学"
+}
+],
+"difficulty": "1",
+"currQuestIdx": "0",
+"finishedStatus": "0",
+"name": "Passage 03"
+}
+],
+"sysPaperID": "TPO-017",
+"sysPaperName": "TPO 17"
+},
+{
+"questItems": [
+{
+"searchSysTopicIDs": [
+"6",
+"38"
+],
+"totalQuest": "14",
+"id": "TPO-016R1",
+"sysTopics": [
+{
+"sysTopicID": "6",
+"sysTopicName": "社会科学"
+},
+{
+"sysTopicID": "38",
+"sysTopicName": "历史"
+}
+],
+"difficulty": "1",
+"currQuestIdx": "0",
+"finishedStatus": "0",
+"name": "Passage 01"
+},
+{
+"searchSysTopicIDs": [
+"5",
+"32"
+],
+"totalQuest": "14",
+"id": "TPO-016R2",
+"sysTopics": [
+{
+"sysTopicID": "5",
+"sysTopicName": "自然科学"
+},
+{
+"sysTopicID": "32",
+"sysTopicName": "化学"
+}
+],
+"difficulty": "1",
+"currQuestIdx": "0",
+"finishedStatus": "0",
+"name": "Passage 02"
+},
+{
+"searchSysTopicIDs": [
+"5",
+"30"
+],
+"totalQuest": "13",
+"id": "TPO-016R3",
+"sysTopics": [
+{
+"sysTopicID": "5",
+"sysTopicName": "自然科学"
+},
+{
+"sysTopicID": "30",
+"sysTopicName": "天文学"
+}
+],
+"difficulty": "0",
+"currQuestIdx": "0",
+"finishedStatus": "0",
+"name": "Passage 03"
+}
+],
+"sysPaperID": "TPO-016",
+"sysPaperName": "TPO 16"
+},
+{
+"questItems": [
+{
+"searchSysTopicIDs": [
+"8",
+"44"
+],
+"totalQuest": "13",
+"id": "TPO-015R1",
+"sysTopics": [
+{
+"sysTopicID": "8",
+"sysTopicName": "生命科学"
+},
+{
+"sysTopicID": "44",
+"sysTopicName": "生物学"
+}
+],
+"difficulty": "1",
+"currQuestIdx": "0",
+"finishedStatus": "0",
+"name": "Passage 01"
+},
+{
+"searchSysTopicIDs": [
+"6",
+"35"
+],
+"totalQuest": "14",
+"id": "TPO-015R2",
+"sysTopics": [
+{
+"sysTopicID": "6",
+"sysTopicName": "社会科学"
+},
+{
+"sysTopicID": "35",
+"sysTopicName": "考古学"
+}
+],
+"difficulty": "1",
+"currQuestIdx": "0",
+"finishedStatus": "0",
+"name": "Passage 02"
+},
+{
+"searchSysTopicIDs": [
+"5",
+"29"
+],
+"totalQuest": "14",
+"id": "TPO-015R3",
+"sysTopics": [
+{
+"sysTopicID": "5",
+"sysTopicName": "自然科学"
+},
+{
+"sysTopicID": "29",
+"sysTopicName": "地理学"
+}
+],
+"difficulty": "1",
+"currQuestIdx": "0",
+"finishedStatus": "0",
+"name": "Passage 03"
+}
+],
+"sysPaperID": "TPO-015",
+"sysPaperName": "TPO 15"
+},
+{
+"questItems": [
+{
+"searchSysTopicIDs": [
+"6",
+"41"
+],
+"totalQuest": "14",
+"id": "TPO-014R1",
+"sysTopics": [
+{
+"sysTopicID": "6",
+"sysTopicName": "社会科学"
+},
+{
+"sysTopicID": "41",
+"sysTopicName": "商业"
+}
+],
+"difficulty": "1",
+"currQuestIdx": "0",
+"finishedStatus": "0",
+"name": "Passage 01"
+},
+{
+"searchSysTopicIDs": [
+"6",
+"39"
+],
+"totalQuest": "13",
+"id": "TPO-014R2",
+"sysTopics": [
+{
+"sysTopicID": "6",
+"sysTopicName": "社会科学"
+},
+{
+"sysTopicID": "39",
+"sysTopicName": "人类学"
+}
+],
+"difficulty": "1",
+"currQuestIdx": "0",
+"finishedStatus": "0",
+"name": "Passage 02"
+},
+{
+"searchSysTopicIDs": [
+"6",
+"39"
+],
+"totalQuest": "13",
+"id": "TPO-014R3",
+"sysTopics": [
+{
+"sysTopicID": "6",
+"sysTopicName": "社会科学"
+},
+{
+"sysTopicID": "39",
+"sysTopicName": "人类学"
+}
+],
+"difficulty": "1",
+"currQuestIdx": "0",
+"finishedStatus": "0",
+"name": "Passage 03"
+}
+],
+"sysPaperID": "TPO-014",
+"sysPaperName": "TPO 14"
+},
+{
+"questItems": [
+{
+"searchSysTopicIDs": [
+"6",
+"36"
+],
+"totalQuest": "13",
+"id": "TPO-013R1",
+"sysTopics": [
+{
+"sysTopicID": "6",
+"sysTopicName": "社会科学"
+},
+{
+"sysTopicID": "36",
+"sysTopicName": "社会学"
+}
+],
+"difficulty": "0",
+"currQuestIdx": "0",
+"finishedStatus": "0",
+"name": "Passage 01"
+},
+{
+"searchSysTopicIDs": [
+"8",
+"44"
+],
+"totalQuest": "14",
+"id": "TPO-013R2",
+"sysTopics": [
+{
+"sysTopicID": "8",
+"sysTopicName": "生命科学"
+},
+{
+"sysTopicID": "44",
+"sysTopicName": "生物学"
+}
+],
+"difficulty": "1",
+"currQuestIdx": "0",
+"finishedStatus": "0",
+"name": "Passage 02"
+},
+{
+"searchSysTopicIDs": [
+"6",
+"37"
+],
+"totalQuest": "14",
+"id": "TPO-013R3",
+"sysTopics": [
+{
+"sysTopicID": "6",
+"sysTopicName": "社会科学"
+},
+{
+"sysTopicID": "37",
+"sysTopicName": "心理学"
+}
+],
+"difficulty": "1",
+"currQuestIdx": "0",
+"finishedStatus": "0",
+"name": "Passage 03"
+}
+],
+"sysPaperID": "TPO-013",
+"sysPaperName": "TPO 13"
+},
+{
+"questItems": [
+{
+"searchSysTopicIDs": [
+"6",
+"39"
+],
+"totalQuest": "14",
+"id": "TPO-012R1",
+"sysTopics": [
+{
+"sysTopicID": "6",
+"sysTopicName": "社会科学"
+},
+{
+"sysTopicID": "39",
+"sysTopicName": "人类学"
+}
+],
+"difficulty": "1",
+"currQuestIdx": "0",
+"finishedStatus": "0",
+"name": "Passage 01"
+},
+{
+"searchSysTopicIDs": [
+"7",
+"43"
+],
+"totalQuest": "14",
+"id": "TPO-012R2",
+"sysTopics": [
+{
+"sysTopicID": "7",
+"sysTopicName": "文化艺术"
+},
+{
+"sysTopicID": "43",
+"sysTopicName": "艺术"
+}
+],
+"difficulty": "1",
+"currQuestIdx": "0",
+"finishedStatus": "0",
+"name": "Passage 02"
+},
+{
+"searchSysTopicIDs": [
+"5",
+"33"
+],
+"totalQuest": "13",
+"id": "TPO-012R3",
+"sysTopics": [
+{
+"sysTopicID": "5",
+"sysTopicName": "自然科学"
+},
+{
+"sysTopicID": "33",
+"sysTopicName": "生态学"
+}
+],
+"difficulty": "1",
+"currQuestIdx": "0",
+"finishedStatus": "0",
+"name": "Passage 03"
+}
+],
+"sysPaperID": "TPO-012",
+"sysPaperName": "TPO 12"
+},
+{
+"questItems": [
+{
+"searchSysTopicIDs": [
+"7",
+"43"
+],
+"totalQuest": "14",
+"id": "TPO-011R1",
+"sysTopics": [
+{
+"sysTopicID": "7",
+"sysTopicName": "文化艺术"
+},
+{
+"sysTopicID": "43",
+"sysTopicName": "艺术"
+}
+],
+"difficulty": "1",
+"currQuestIdx": "0",
+"finishedStatus": "0",
+"name": "Passage 01"
+},
+{
+"searchSysTopicIDs": [
+"8",
+"44"
+],
+"totalQuest": "14",
+"id": "TPO-011R2",
+"sysTopics": [
+{
+"sysTopicID": "8",
+"sysTopicName": "生命科学"
+},
+{
+"sysTopicID": "44",
+"sysTopicName": "生物学"
+}
+],
+"difficulty": "1",
+"currQuestIdx": "0",
+"finishedStatus": "0",
+"name": "Passage 02"
+},
+{
+"searchSysTopicIDs": [
+"8",
+"44"
+],
+"totalQuest": "14",
+"id": "TPO-011R3",
+"sysTopics": [
+{
+"sysTopicID": "8",
+"sysTopicName": "生命科学"
+},
+{
+"sysTopicID": "44",
+"sysTopicName": "生物学"
+}
+],
+"difficulty": "0",
+"currQuestIdx": "0",
+"finishedStatus": "0",
+"name": "Passage 03"
+}
+],
+"sysPaperID": "TPO-011",
+"sysPaperName": "TPO 11"
+},
+{
+"questItems": [
+{
+"searchSysTopicIDs": [
+"7",
+"43"
+],
+"totalQuest": "14",
+"id": "TPO-010R1",
+"sysTopics": [
+{
+"sysTopicID": "7",
+"sysTopicName": "文化艺术"
+},
+{
+"sysTopicID": "43",
+"sysTopicName": "艺术"
+}
+],
+"difficulty": "1",
+"currQuestIdx": "0",
+"finishedStatus": "0",
+"name": "Passage 01"
+},
+{
+"searchSysTopicIDs": [
+"5",
+"31"
+],
+"totalQuest": "14",
+"id": "TPO-010R2",
+"sysTopics": [
+{
+"sysTopicID": "5",
+"sysTopicName": "自然科学"
+},
+{
+"sysTopicID": "31",
+"sysTopicName": "气象学"
+}
+],
+"difficulty": "1",
+"currQuestIdx": "0",
+"finishedStatus": "0",
+"name": "Passage 02"
+},
+{
+"searchSysTopicIDs": [
+"6",
+"38"
+],
+"totalQuest": "14",
+"id": "TPO-010R3",
+"sysTopics": [
+{
+"sysTopicID": "6",
+"sysTopicName": "社会科学"
+},
+{
+"sysTopicID": "38",
+"sysTopicName": "历史"
+}
+],
+"difficulty": "1",
+"currQuestIdx": "0",
+"finishedStatus": "0",
+"name": "Passage 03"
+}
+],
+"sysPaperID": "TPO-010",
+"sysPaperName": "TPO 10"
+},
+{
+"questItems": [
+{
+"searchSysTopicIDs": [
+"6",
+"39"
+],
+"totalQuest": "14",
+"id": "TPO-009R1",
+"sysTopics": [
+{
+"sysTopicID": "6",
+"sysTopicName": "社会科学"
+},
+{
+"sysTopicID": "39",
+"sysTopicName": "人类学"
+}
+],
+"difficulty": "1",
+"currQuestIdx": "0",
+"finishedStatus": "0",
+"name": "Passage 01"
+},
+{
+"searchSysTopicIDs": [
+"6",
+"42"
+],
+"totalQuest": "13",
+"id": "TPO-009R2",
+"sysTopics": [
+{
+"sysTopicID": "6",
+"sysTopicName": "社会科学"
+},
+{
+"sysTopicID": "42",
+"sysTopicName": "教育"
+}
+],
+"difficulty": "0",
+"currQuestIdx": "0",
+"finishedStatus": "0",
+"name": "Passage 02"
+},
+{
+"searchSysTopicIDs": [
+"8",
+"44"
+],
+"totalQuest": "14",
+"id": "TPO-009R3",
+"sysTopics": [
+{
+"sysTopicID": "8",
+"sysTopicName": "生命科学"
+},
+{
+"sysTopicID": "44",
+"sysTopicName": "生物学"
+}
+],
+"difficulty": "1",
+"currQuestIdx": "0",
+"finishedStatus": "0",
+"name": "Passage 03"
+}
+],
+"sysPaperID": "TPO-009",
+"sysPaperName": "TPO 09"
+},
+{
+"questItems": [
+{
+"searchSysTopicIDs": [
+"6",
+"39"
+],
+"totalQuest": "14",
+"id": "TPO-008R1",
+"sysTopics": [
+{
+"sysTopicID": "6",
+"sysTopicName": "社会科学"
+},
+{
+"sysTopicID": "39",
+"sysTopicName": "人类学"
+}
+],
+"difficulty": "1",
+"currQuestIdx": "0",
+"finishedStatus": "0",
+"name": "Passage 01"
+},
+{
+"searchSysTopicIDs": [
+"8",
+"44"
+],
+"totalQuest": "14",
+"id": "TPO-008R2",
+"sysTopics": [
+{
+"sysTopicID": "8",
+"sysTopicName": "生命科学"
+},
+{
+"sysTopicID": "44",
+"sysTopicName": "生物学"
+}
+],
+"difficulty": "1",
+"currQuestIdx": "0",
+"finishedStatus": "0",
+"name": "Passage 02"
+},
+{
+"searchSysTopicIDs": [
+"5",
+"30"
+],
+"totalQuest": "13",
+"id": "TPO-008R3",
+"sysTopics": [
+{
+"sysTopicID": "5",
+"sysTopicName": "自然科学"
+},
+{
+"sysTopicID": "30",
+"sysTopicName": "天文学"
+}
+],
+"difficulty": "0",
+"currQuestIdx": "0",
+"finishedStatus": "0",
+"name": "Passage 03"
+}
+],
+"sysPaperID": "TPO-008",
+"sysPaperName": "TPO 08"
+},
+{
+"questItems": [
+{
+"searchSysTopicIDs": [
+"5",
+"29"
+],
+"totalQuest": "13",
+"id": "TPO-007R1",
+"sysTopics": [
+{
+"sysTopicID": "5",
+"sysTopicName": "自然科学"
+},
+{
+"sysTopicID": "29",
+"sysTopicName": "地理学"
+}
+],
+"difficulty": "0",
+"currQuestIdx": "0",
+"finishedStatus": "0",
+"name": "Passage 01"
+},
+{
+"searchSysTopicIDs": [
+"6",
+"38"
+],
+"totalQuest": "14",
+"id": "TPO-007R2",
+"sysTopics": [
+{
+"sysTopicID": "6",
+"sysTopicName": "社会科学"
+},
+{
+"sysTopicID": "38",
+"sysTopicName": "历史"
+}
+],
+"difficulty": "0",
+"currQuestIdx": "0",
+"finishedStatus": "0",
+"name": "Passage 02"
+},
+{
+"searchSysTopicIDs": [
+"6",
+"38"
+],
+"totalQuest": "14",
+"id": "TPO-007R3",
+"sysTopics": [
+{
+"sysTopicID": "6",
+"sysTopicName": "社会科学"
+},
+{
+"sysTopicID": "38",
+"sysTopicName": "历史"
+}
+],
+"difficulty": "1",
+"currQuestIdx": "0",
+"finishedStatus": "0",
+"name": "Passage 03"
+}
+],
+"sysPaperID": "TPO-007",
+"sysPaperName": "TPO 07"
+},
+{
+"questItems": [
+{
+"searchSysTopicIDs": [
+"6",
+"38"
+],
+"totalQuest": "13",
+"id": "TPO-006R1",
+"sysTopics": [
+{
+"sysTopicID": "6",
+"sysTopicName": "社会科学"
+},
+{
+"sysTopicID": "38",
+"sysTopicName": "历史"
+}
+],
+"difficulty": "1",
+"currQuestIdx": "0",
+"finishedStatus": "0",
+"name": "Passage 01"
+},
+{
+"searchSysTopicIDs": [
+"5",
+"29"
+],
+"totalQuest": "14",
+"id": "TPO-006R2",
+"sysTopics": [
+{
+"sysTopicID": "5",
+"sysTopicName": "自然科学"
+},
+{
+"sysTopicID": "29",
+"sysTopicName": "地理学"
+}
+],
+"difficulty": "1",
+"currQuestIdx": "0",
+"finishedStatus": "0",
+"name": "Passage 02"
+},
+{
+"searchSysTopicIDs": [
+"6",
+"37"
+],
+"totalQuest": "14",
+"id": "TPO-006R3",
+"sysTopics": [
+{
+"sysTopicID": "6",
+"sysTopicName": "社会科学"
+},
+{
+"sysTopicID": "37",
+"sysTopicName": "心理学"
+}
+],
+"difficulty": "1",
+"currQuestIdx": "0",
+"finishedStatus": "0",
+"name": "Passage 03"
+}
+],
+"sysPaperID": "TPO-006",
+"sysPaperName": "TPO 06"
+},
+{
+"questItems": [
+{
+"searchSysTopicIDs": [
+"5",
+"33"
+],
+"totalQuest": "14",
+"id": "TPO-005R1",
+"sysTopics": [
+{
+"sysTopicID": "5",
+"sysTopicName": "自然科学"
+},
+{
+"sysTopicID": "33",
+"sysTopicName": "生态学"
+}
+],
+"difficulty": "1",
+"currQuestIdx": "0",
+"finishedStatus": "0",
+"name": "Passage 01"
+},
+{
+"searchSysTopicIDs": [
+"6",
+"39"
+],
+"totalQuest": "14",
+"id": "TPO-005R2",
+"sysTopics": [
+{
+"sysTopicID": "6",
+"sysTopicName": "社会科学"
+},
+{
+"sysTopicID": "39",
+"sysTopicName": "人类学"
+}
+],
+"difficulty": "1",
+"currQuestIdx": "0",
+"finishedStatus": "0",
+"name": "Passage 02"
+},
+{
+"searchSysTopicIDs": [
+"8",
+"44"
+],
+"totalQuest": "14",
+"id": "TPO-005R3",
+"sysTopics": [
+{
+"sysTopicID": "8",
+"sysTopicName": "生命科学"
+},
+{
+"sysTopicID": "44",
+"sysTopicName": "生物学"
+}
+],
+"difficulty": "1",
+"currQuestIdx": "0",
+"finishedStatus": "0",
+"name": "Passage 03"
+}
+],
+"sysPaperID": "TPO-005",
+"sysPaperName": "TPO 05"
+},
+{
+"questItems": [
+{
+"searchSysTopicIDs": [
+"8",
+"44"
+],
+"totalQuest": "14",
+"id": "TPO-004R1",
+"sysTopics": [
+{
+"sysTopicID": "8",
+"sysTopicName": "生命科学"
+},
+{
+"sysTopicID": "44",
+"sysTopicName": "生物学"
+}
+],
+"difficulty": "1",
+"currQuestIdx": "0",
+"finishedStatus": "0",
+"name": "Passage 01"
+},
+{
+"searchSysTopicIDs": [
+"7",
+"43"
+],
+"totalQuest": "14",
+"id": "TPO-004R2",
+"sysTopics": [
+{
+"sysTopicID": "7",
+"sysTopicName": "文化艺术"
+},
+{
+"sysTopicID": "43",
+"sysTopicName": "艺术"
+}
+],
+"difficulty": "1",
+"currQuestIdx": "0",
+"finishedStatus": "0",
+"name": "Passage 02"
+},
+{
+"searchSysTopicIDs": [
+"5",
+"29"
+],
+"totalQuest": "14",
+"id": "TPO-004R3",
+"sysTopics": [
+{
+"sysTopicID": "5",
+"sysTopicName": "自然科学"
+},
+{
+"sysTopicID": "29",
+"sysTopicName": "地理学"
+}
+],
+"difficulty": "1",
+"currQuestIdx": "0",
+"finishedStatus": "0",
+"name": "Passage 03"
+}
+],
+"sysPaperID": "TPO-004",
+"sysPaperName": "TPO 04"
+},
+{
+"questItems": [
+{
+"searchSysTopicIDs": [
+"7",
+"43"
+],
+"totalQuest": "14",
+"id": "TPO-003R1",
+"sysTopics": [
+{
+"sysTopicID": "7",
+"sysTopicName": "文化艺术"
+},
+{
+"sysTopicID": "43",
+"sysTopicName": "艺术"
+}
+],
+"difficulty": "1",
+"currQuestIdx": "0",
+"finishedStatus": "0",
+"name": "Passage 01"
+},
+{
+"searchSysTopicIDs": [
+"5",
+"29"
+],
+"totalQuest": "14",
+"id": "TPO-003R2",
+"sysTopics": [
+{
+"sysTopicID": "5",
+"sysTopicName": "自然科学"
+},
+{
+"sysTopicID": "29",
+"sysTopicName": "地理学"
+}
+],
+"difficulty": "1",
+"currQuestIdx": "0",
+"finishedStatus": "0",
+"name": "Passage 02"
+},
+{
+"searchSysTopicIDs": [
+"5",
+"33"
+],
+"totalQuest": "14",
+"id": "TPO-003R3",
+"sysTopics": [
+{
+"sysTopicID": "5",
+"sysTopicName": "自然科学"
+},
+{
+"sysTopicID": "33",
+"sysTopicName": "生态学"
+}
+],
+"difficulty": "1",
+"currQuestIdx": "0",
+"finishedStatus": "0",
+"name": "Passage 03"
+}
+],
+"sysPaperID": "TPO-003",
+"sysPaperName": "TPO 03"
+},
+{
+"questItems": [
+{
+"searchSysTopicIDs": [
+"5",
+"33"
+],
+"totalQuest": "13",
+"id": "TPO-002R1",
+"sysTopics": [
+{
+"sysTopicID": "5",
+"sysTopicName": "自然科学"
+},
+{
+"sysTopicID": "33",
+"sysTopicName": "生态学"
+}
+],
+"difficulty": "1",
+"currQuestIdx": "0",
+"finishedStatus": "0",
+"name": "Passage 01"
+},
+{
+"searchSysTopicIDs": [
+"8",
+"44"
+],
+"totalQuest": "13",
+"id": "TPO-002R2",
+"sysTopics": [
+{
+"sysTopicID": "8",
+"sysTopicName": "生命科学"
+},
+{
+"sysTopicID": "44",
+"sysTopicName": "生物学"
+}
+],
+"difficulty": "1",
+"currQuestIdx": "0",
+"finishedStatus": "0",
+"name": "Passage 02"
+},
+{
+"searchSysTopicIDs": [
+"7",
+"43"
+],
+"totalQuest": "13",
+"id": "TPO-002R3",
+"sysTopics": [
+{
+"sysTopicID": "7",
+"sysTopicName": "文化艺术"
+},
+{
+"sysTopicID": "43",
+"sysTopicName": "艺术"
+}
+],
+"difficulty": "1",
+"currQuestIdx": "0",
+"finishedStatus": "0",
+"name": "Passage 03"
+}
+],
+"sysPaperID": "TPO-002",
+"sysPaperName": "TPO 02"
+},
+{
+"questItems": [
+{
+"searchSysTopicIDs": [
+"5",
+"29"
+],
+"totalQuest": "14",
+"id": "TPO-001R1",
+"sysTopics": [
+{
+"sysTopicID": "5",
+"sysTopicName": "自然科学"
+},
+{
+"sysTopicID": "29",
+"sysTopicName": "地理学"
+}
+],
+"difficulty": "0",
+"currQuestIdx": "14",
+"finishedStatus": "2",
+"name": "Passage 01"
+},
+{
+"searchSysTopicIDs": [
+"7",
+"43"
+],
+"totalQuest": "14",
+"id": "TPO-001R2",
+"sysTopics": [
+{
+"sysTopicID": "7",
+"sysTopicName": "文化艺术"
+},
+{
+"sysTopicID": "43",
+"sysTopicName": "艺术"
+}
+],
+"difficulty": "0",
+"currQuestIdx": "0",
+"finishedStatus": "0",
+"name": "Passage 02"
+},
+{
+"searchSysTopicIDs": [
+"8",
+"45"
+],
+"totalQuest": "14",
+"id": "TPO-001R3",
+"sysTopics": [
+{
+"sysTopicID": "8",
+"sysTopicName": "生命科学"
+},
+{
+"sysTopicID": "45",
+"sysTopicName": "植物学"
+}
+],
+"difficulty": "0",
+"currQuestIdx": "0",
+"finishedStatus": "0",
+"name": "Passage 03"
+}
+],
+"sysPaperID": "TPO-001",
+"sysPaperName": "TPO 01"
+}
+],
+"tpoIdRangs": [
+{
+"name": "TPO 51-54",
+"value": "TPO-051:TPO-054"
+},
+{
+"name": "TPO 41-50",
+"value": "TPO-041:TPO-050"
+},
+{
+"name": "TPO 31-40",
+"value": "TPO-031:TPO-040"
+},
+{
+"name": "TPO 21-30",
+"value": "TPO-021:TPO-030"
+},
+{
+"name": "TPO 11-20",
+"value": "TPO-011:TPO-020"
+},
+{
+"name": "TPO 1-10",
+"value": "TPO-001:TPO-010"
+}
+]
+},
+"code": "0"
+}

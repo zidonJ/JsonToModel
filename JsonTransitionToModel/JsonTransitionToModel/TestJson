@@ -1,0 +1,37 @@
+{
+"data" : {
+"UserID" : "11",
+"Name" : {
+"LastName" : "Zhu",
+"FirstName" : "Truly"
+},
+"Email" : "zhuleipro◎hotmail.com",
+"Addresses" : [
+{
+"Address" : "北京",
+"Address1" : "北京",
+"Address2" : "北京"
+},
+{
+"Address" : "上海",
+"Address1" : "北京",
+"Address2" : "北京"
+},
+{
+"Address" : "广州",
+"Address1" : "北京",
+"Address2" : "北京"
+},
+{
+"Address" : "深圳",
+"Address1" : "北京",
+"Address2" : "北京"
+}
+],
+"names" : [
+"Andrew",
+"Tom",
+"Lucy",
+"GX"],
+}
+}
