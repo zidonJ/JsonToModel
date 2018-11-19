@@ -10,6 +10,7 @@
 #import "GenerateFileHelper.h"
 #import "First.h"
 
+
 @interface JsonTransitionToModelTests : XCTestCase
 
 @end
