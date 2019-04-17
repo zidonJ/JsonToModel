@@ -10,6 +10,7 @@
 #import "GenerateFileHelper.h"
 #import "NSDate+Simple.h"
 #import "First.h"
+#import "LBSpellModel.h"
 
 @interface MainFuncController ()
 
@@ -30,6 +31,12 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do view setup here.
+    
+    NSString *url = [[NSBundle mainBundle] pathForResource:@"TestJson2" ofType:nil];
+    NSString *jsonString = [NSString stringWithContentsOfURL:[NSURL fileURLWithPath:url] encoding:NSUTF8StringEncoding error:nil];
+    
+    LBSpellModel *first = [LBSpellModel modelWithJson:jsonString];
+    NSLog(@"%@\n%@\n%@",first.data,first.code,first.data.questionGuides);
     
     _modelHelper = [GenerateFileHelper new];
 }

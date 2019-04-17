@@ -7,14 +7,5 @@ target 'JsonTransitionToModel' do
   pod 'YYModel', '~> 1.0.4'
   # Pods for JsonTransitionToModel
 
-  target 'JsonTransitionToModelTests' do
-    inherit! :search_paths
-    # Pods for testing
-  end
-
-  target 'JsonTransitionToModelUITests' do
-    inherit! :search_paths
-    # Pods for testing
-  end
 
 end

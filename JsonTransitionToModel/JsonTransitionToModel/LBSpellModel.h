@@ -1,8 +1,8 @@
 //
-//  First.h
-//  22
-//  Created by 22 on 2018/12/26.
-//  Copyright © 2018年 22. All rights reserved.
+//  LBSpellModel.h
+//  TOEFL
+//  Created by zidon on 2018/12/26.
+//  Copyright © 2018年 zidon. All rights reserved.
 //
 
 #import <Foundation/Foundation.h>
@@ -13,14 +13,14 @@
 #import"YYModel.h" 
 #endif
 
-@class FirstData;
-@class FirstDataQuestionGuides;
-@class FirstDataQuestionGuidesQuestionPositions;
+@class LBSpellModelData;
+@class LBSpellModelDataQuestionGuides;
+@class LBSpellModelDataQuestionGuidesQuestionPositions;
 
-@interface First : NSObject
+@interface LBSpellModel : NSObject
 
 /** <#data#>*/
-@property (nonatomic, strong) FirstData *data;
+@property (nonatomic, strong) LBSpellModelData *data;
 
 /** <#code#>*/
 @property (nonatomic, copy) NSString *code;
@@ -31,7 +31,7 @@
 @end
 
 
-@interface FirstData : NSObject
+@interface LBSpellModelData : NSObject
 
 /** <#questionType#>*/
 @property (nonatomic, copy) NSString *questionType;
@@ -49,12 +49,12 @@
 @property (nonatomic, copy) NSString *groupID;
 
 /** <#questionGuides#>*/
-@property (nonatomic, strong) NSArray<FirstDataQuestionGuides *> *questionGuides;
+@property (nonatomic, strong) NSArray<LBSpellModelDataQuestionGuides *> *questionGuides;
 
 @end
 
 
-@interface FirstDataQuestionGuides : NSObject
+@interface LBSpellModelDataQuestionGuides : NSObject
 
 /** <#userQuestionID#>*/
 @property (nonatomic, copy) NSString *userQuestionID;
@@ -95,7 +95,7 @@
 @end
 
 
-@interface FirstDataQuestionGuidesQuestionPositions : NSObject
+@interface LBSpellModelDataQuestionGuidesQuestionPositions : NSObject
 
 @end
 

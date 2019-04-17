@@ -1,14 +1,14 @@
 //
-//  First.m
-//  22
-//  Created by 22 on 2018/12/26.
-//  Copyright © 2018年 22. All rights reserved.
+//  LBSpellModel.m
+//  TOEFL
+//  Created by zidon on 2018/12/26.
+//  Copyright © 2018年 zidon. All rights reserved.
 //
 
-#import "First.h"
+#import "LBSpellModel.h"
 
 
-@implementation First
+@implementation LBSpellModel
 
 + (nullable NSDictionary<NSString *, id> *)modelCustomPropertyMapper {
 
@@ -34,7 +34,7 @@
 @end
 
 
-@implementation FirstData
+@implementation LBSpellModelData
 
 + (nullable NSDictionary<NSString *, id> *)modelCustomPropertyMapper {
 
@@ -42,14 +42,14 @@
 }
 
 + (nullable NSDictionary<NSString *, id> *)modelContainerPropertyGenericClass {
-    return @{@"questionGuides" : NSClassFromString(@"FirstDataQuestionGuides")};
+    return @{@"questionGuides" : NSClassFromString(@"LBSpellModelDataQuestionGuides")};
 }
 
 
 @end
 
 
-@implementation FirstDataQuestionGuides
+@implementation LBSpellModelDataQuestionGuides
 
 + (nullable NSDictionary<NSString *, id> *)modelCustomPropertyMapper {
 
@@ -64,7 +64,7 @@
 @end
 
 
-@implementation FirstDataQuestionGuidesQuestionPositions
+@implementation LBSpellModelDataQuestionGuidesQuestionPositions
 
 + (nullable NSDictionary<NSString *, id> *)modelCustomPropertyMapper {
 

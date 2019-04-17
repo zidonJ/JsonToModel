@@ -8,16 +8,14 @@
 
 /* Begin PBXBuildFile section */
 		65ECCDE95D84AAA4DB018876 /* libPods-JsonTransitionToModel.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 9698AA11A3F950C5A4A7D04B /* libPods-JsonTransitionToModel.a */; };
-		BA3AF5E4A88D048FFD90D412 /* libPods-JsonTransitionToModelTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 767F1AA36C73615C10529EA7 /* libPods-JsonTransitionToModelTests.a */; };
+		DC2DE30821D3A33F0059F675 /* First.m in Sources */ = {isa = PBXBuildFile; fileRef = DC2DE30621D3A33F0059F675 /* First.m */; };
+		DC2DE30E21D3A7F90059F675 /* LBSpellModel.m in Sources */ = {isa = PBXBuildFile; fileRef = DC2DE30D21D3A7F90059F675 /* LBSpellModel.m */; };
 		DC8FE1DA21913529009BD458 /* TestJson2 in Resources */ = {isa = PBXBuildFile; fileRef = DC8FE1D921913529009BD458 /* TestJson2 */; };
-		DC8FE1DD21913A3A009BD458 /* First.m in Sources */ = {isa = PBXBuildFile; fileRef = DC8FE1DB21913A3A009BD458 /* First.m */; };
 		DCC64546217DA0B5008C8A46 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = DCC64545217DA0B5008C8A46 /* AppDelegate.m */; };
 		DCC64549217DA0B5008C8A46 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DCC64548217DA0B5008C8A46 /* ViewController.m */; };
 		DCC6454B217DA0B7008C8A46 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DCC6454A217DA0B7008C8A46 /* Assets.xcassets */; };
 		DCC6454E217DA0B7008C8A46 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DCC6454C217DA0B7008C8A46 /* Main.storyboard */; };
 		DCC64551217DA0B7008C8A46 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = DCC64550217DA0B7008C8A46 /* main.m */; };
-		DCC6455C217DA0B8008C8A46 /* JsonTransitionToModelTests.m in Sources */ = {isa = PBXBuildFile; fileRef = DCC6455B217DA0B8008C8A46 /* JsonTransitionToModelTests.m */; };
-		DCC64567217DA0B8008C8A46 /* JsonTransitionToModelUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = DCC64566217DA0B8008C8A46 /* JsonTransitionToModelUITests.m */; };
 		DCC64576217DA259008C8A46 /* MainSplitController.m in Sources */ = {isa = PBXBuildFile; fileRef = DCC64575217DA259008C8A46 /* MainSplitController.m */; };
 		DCC64579217DA39A008C8A46 /* HeaderController.m in Sources */ = {isa = PBXBuildFile; fileRef = DCC64578217DA39A008C8A46 /* HeaderController.m */; };
 		DCC6457C217DA3AF008C8A46 /* ImplentController.m in Sources */ = {isa = PBXBuildFile; fileRef = DCC6457B217DA3AF008C8A46 /* ImplentController.m */; };
@@ -25,25 +23,7 @@
 		DCF652DF21869FBA00DACECA /* GenerateFileHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = DCF652DE21869FBA00DACECA /* GenerateFileHelper.m */; };
 		DCF652E52186A33D00DACECA /* NSDate+Simple.m in Sources */ = {isa = PBXBuildFile; fileRef = DCF652E42186A33D00DACECA /* NSDate+Simple.m */; };
 		DCF652ED21897EB000DACECA /* TestJson in Resources */ = {isa = PBXBuildFile; fileRef = DCF652EC21897EB000DACECA /* TestJson */; };
-		FD3F7A704276FBC0FCC508AA /* libPods-JsonTransitionToModelUITests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = B83B2DC6A6BD6FA7AAC05E3B /* libPods-JsonTransitionToModelUITests.a */; };
 /* End PBXBuildFile section */
-
-/* Begin PBXContainerItemProxy section */
-		DCC64558217DA0B8008C8A46 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = DCC64539217DA0B5008C8A46 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = DCC64540217DA0B5008C8A46;
-			remoteInfo = JsonTransitionToModel;
-		};
-		DCC64563217DA0B8008C8A46 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = DCC64539217DA0B5008C8A46 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = DCC64540217DA0B5008C8A46;
-			remoteInfo = JsonTransitionToModel;
-		};
-/* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		09CB12D48D486BCD0A5E5472 /* Pods-JsonTransitionToModel.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JsonTransitionToModel.release.xcconfig"; path = "Pods/Target Support Files/Pods-JsonTransitionToModel/Pods-JsonTransitionToModel.release.xcconfig"; sourceTree = "<group>"; };
@@ -55,9 +35,11 @@
 		767F1AA36C73615C10529EA7 /* libPods-JsonTransitionToModelTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-JsonTransitionToModelTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		9698AA11A3F950C5A4A7D04B /* libPods-JsonTransitionToModel.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-JsonTransitionToModel.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		B83B2DC6A6BD6FA7AAC05E3B /* libPods-JsonTransitionToModelUITests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-JsonTransitionToModelUITests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DC2DE30621D3A33F0059F675 /* First.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = First.m; sourceTree = "<group>"; };
+		DC2DE30721D3A33F0059F675 /* First.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = First.h; sourceTree = "<group>"; };
+		DC2DE30C21D3A7F90059F675 /* LBSpellModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LBSpellModel.h; sourceTree = "<group>"; };
+		DC2DE30D21D3A7F90059F675 /* LBSpellModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LBSpellModel.m; sourceTree = "<group>"; };
 		DC8FE1D921913529009BD458 /* TestJson2 */ = {isa = PBXFileReference; lastKnownFileType = text; path = TestJson2; sourceTree = "<group>"; };
-		DC8FE1DB21913A3A009BD458 /* First.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = First.m; sourceTree = "<group>"; };
-		DC8FE1DC21913A3A009BD458 /* First.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = First.h; sourceTree = "<group>"; };
 		DCC64541217DA0B5008C8A46 /* JsonTransitionToModel.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JsonTransitionToModel.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DCC64544217DA0B5008C8A46 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		DCC64545217DA0B5008C8A46 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -68,12 +50,6 @@
 		DCC6454F217DA0B7008C8A46 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		DCC64550217DA0B7008C8A46 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		DCC64552217DA0B7008C8A46 /* JsonTransitionToModel.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = JsonTransitionToModel.entitlements; sourceTree = "<group>"; };
-		DCC64557217DA0B8008C8A46 /* JsonTransitionToModelTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JsonTransitionToModelTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		DCC6455B217DA0B8008C8A46 /* JsonTransitionToModelTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JsonTransitionToModelTests.m; sourceTree = "<group>"; };
-		DCC6455D217DA0B8008C8A46 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		DCC64562217DA0B8008C8A46 /* JsonTransitionToModelUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JsonTransitionToModelUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		DCC64566217DA0B8008C8A46 /* JsonTransitionToModelUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JsonTransitionToModelUITests.m; sourceTree = "<group>"; };
-		DCC64568217DA0B8008C8A46 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		DCC64574217DA259008C8A46 /* MainSplitController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MainSplitController.h; sourceTree = "<group>"; };
 		DCC64575217DA259008C8A46 /* MainSplitController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MainSplitController.m; sourceTree = "<group>"; };
 		DCC64577217DA39A008C8A46 /* HeaderController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HeaderController.h; sourceTree = "<group>"; };
@@ -95,22 +71,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				65ECCDE95D84AAA4DB018876 /* libPods-JsonTransitionToModel.a in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		DCC64554217DA0B8008C8A46 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				BA3AF5E4A88D048FFD90D412 /* libPods-JsonTransitionToModelTests.a in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		DCC6455F217DA0B8008C8A46 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				FD3F7A704276FBC0FCC508AA /* libPods-JsonTransitionToModelUITests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -144,8 +104,6 @@
 			isa = PBXGroup;
 			children = (
 				DCC64543217DA0B5008C8A46 /* JsonTransitionToModel */,
-				DCC6455A217DA0B8008C8A46 /* JsonTransitionToModelTests */,
-				DCC64565217DA0B8008C8A46 /* JsonTransitionToModelUITests */,
 				DCC64542217DA0B5008C8A46 /* Products */,
 				838B104664CFA3583629F85B /* Pods */,
 				0EE98A4821F12BF8F9F1E7D6 /* Frameworks */,
@@ -156,8 +114,6 @@
 			isa = PBXGroup;
 			children = (
 				DCC64541217DA0B5008C8A46 /* JsonTransitionToModel.app */,
-				DCC64557217DA0B8008C8A46 /* JsonTransitionToModelTests.xctest */,
-				DCC64562217DA0B8008C8A46 /* JsonTransitionToModelUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -181,35 +137,19 @@
 				DCF652DE21869FBA00DACECA /* GenerateFileHelper.m */,
 				DCF652E32186A33D00DACECA /* NSDate+Simple.h */,
 				DCF652E42186A33D00DACECA /* NSDate+Simple.m */,
-				DC8FE1DC21913A3A009BD458 /* First.h */,
-				DC8FE1DB21913A3A009BD458 /* First.m */,
 				DCC6454A217DA0B7008C8A46 /* Assets.xcassets */,
 				DCC6454C217DA0B7008C8A46 /* Main.storyboard */,
 				DCC6454F217DA0B7008C8A46 /* Info.plist */,
 				DCC64550217DA0B7008C8A46 /* main.m */,
 				DCF652EC21897EB000DACECA /* TestJson */,
 				DC8FE1D921913529009BD458 /* TestJson2 */,
+				DC2DE30721D3A33F0059F675 /* First.h */,
+				DC2DE30621D3A33F0059F675 /* First.m */,
+				DC2DE30C21D3A7F90059F675 /* LBSpellModel.h */,
+				DC2DE30D21D3A7F90059F675 /* LBSpellModel.m */,
 				DCC64552217DA0B7008C8A46 /* JsonTransitionToModel.entitlements */,
 			);
 			path = JsonTransitionToModel;
-			sourceTree = "<group>";
-		};
-		DCC6455A217DA0B8008C8A46 /* JsonTransitionToModelTests */ = {
-			isa = PBXGroup;
-			children = (
-				DCC6455B217DA0B8008C8A46 /* JsonTransitionToModelTests.m */,
-				DCC6455D217DA0B8008C8A46 /* Info.plist */,
-			);
-			path = JsonTransitionToModelTests;
-			sourceTree = "<group>";
-		};
-		DCC64565217DA0B8008C8A46 /* JsonTransitionToModelUITests */ = {
-			isa = PBXGroup;
-			children = (
-				DCC64566217DA0B8008C8A46 /* JsonTransitionToModelUITests.m */,
-				DCC64568217DA0B8008C8A46 /* Info.plist */,
-			);
-			path = JsonTransitionToModelUITests;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -233,44 +173,6 @@
 			productReference = DCC64541217DA0B5008C8A46 /* JsonTransitionToModel.app */;
 			productType = "com.apple.product-type.application";
 		};
-		DCC64556217DA0B8008C8A46 /* JsonTransitionToModelTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = DCC6456E217DA0B8008C8A46 /* Build configuration list for PBXNativeTarget "JsonTransitionToModelTests" */;
-			buildPhases = (
-				7D8A766A3E4146A353E422F2 /* [CP] Check Pods Manifest.lock */,
-				DCC64553217DA0B8008C8A46 /* Sources */,
-				DCC64554217DA0B8008C8A46 /* Frameworks */,
-				DCC64555217DA0B8008C8A46 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				DCC64559217DA0B8008C8A46 /* PBXTargetDependency */,
-			);
-			name = JsonTransitionToModelTests;
-			productName = JsonTransitionToModelTests;
-			productReference = DCC64557217DA0B8008C8A46 /* JsonTransitionToModelTests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
-		};
-		DCC64561217DA0B8008C8A46 /* JsonTransitionToModelUITests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = DCC64571217DA0B8008C8A46 /* Build configuration list for PBXNativeTarget "JsonTransitionToModelUITests" */;
-			buildPhases = (
-				83FAD2869B7A4F2BDBD7CD35 /* [CP] Check Pods Manifest.lock */,
-				DCC6455E217DA0B8008C8A46 /* Sources */,
-				DCC6455F217DA0B8008C8A46 /* Frameworks */,
-				DCC64560217DA0B8008C8A46 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				DCC64564217DA0B8008C8A46 /* PBXTargetDependency */,
-			);
-			name = JsonTransitionToModelUITests;
-			productName = JsonTransitionToModelUITests;
-			productReference = DCC64562217DA0B8008C8A46 /* JsonTransitionToModelUITests.xctest */;
-			productType = "com.apple.product-type.bundle.ui-testing";
-		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -282,14 +184,6 @@
 				TargetAttributes = {
 					DCC64540217DA0B5008C8A46 = {
 						CreatedOnToolsVersion = 10.0;
-					};
-					DCC64556217DA0B8008C8A46 = {
-						CreatedOnToolsVersion = 10.0;
-						TestTargetID = DCC64540217DA0B5008C8A46;
-					};
-					DCC64561217DA0B8008C8A46 = {
-						CreatedOnToolsVersion = 10.0;
-						TestTargetID = DCC64540217DA0B5008C8A46;
 					};
 				};
 			};
@@ -307,8 +201,6 @@
 			projectRoot = "";
 			targets = (
 				DCC64540217DA0B5008C8A46 /* JsonTransitionToModel */,
-				DCC64556217DA0B8008C8A46 /* JsonTransitionToModelTests */,
-				DCC64561217DA0B8008C8A46 /* JsonTransitionToModelUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -322,20 +214,6 @@
 				DC8FE1DA21913529009BD458 /* TestJson2 in Resources */,
 				DCF652ED21897EB000DACECA /* TestJson in Resources */,
 				DCC6454E217DA0B7008C8A46 /* Main.storyboard in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		DCC64555217DA0B8008C8A46 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		DCC64560217DA0B8008C8A46 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -364,50 +242,6 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
-		7D8A766A3E4146A353E422F2 /* [CP] Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-			);
-			inputPaths = (
-				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
-				"${PODS_ROOT}/Manifest.lock",
-			);
-			name = "[CP] Check Pods Manifest.lock";
-			outputFileListPaths = (
-			);
-			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-JsonTransitionToModelTests-checkManifestLockResult.txt",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
-			showEnvVarsInLog = 0;
-		};
-		83FAD2869B7A4F2BDBD7CD35 /* [CP] Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-			);
-			inputPaths = (
-				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
-				"${PODS_ROOT}/Manifest.lock",
-			);
-			name = "[CP] Check Pods Manifest.lock";
-			outputFileListPaths = (
-			);
-			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-JsonTransitionToModelUITests-checkManifestLockResult.txt",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
-			showEnvVarsInLog = 0;
-		};
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -417,47 +251,19 @@
 			files = (
 				DCC64549217DA0B5008C8A46 /* ViewController.m in Sources */,
 				DCC64579217DA39A008C8A46 /* HeaderController.m in Sources */,
+				DC2DE30E21D3A7F90059F675 /* LBSpellModel.m in Sources */,
 				DCF652DF21869FBA00DACECA /* GenerateFileHelper.m in Sources */,
 				DCC64576217DA259008C8A46 /* MainSplitController.m in Sources */,
 				DCC6457C217DA3AF008C8A46 /* ImplentController.m in Sources */,
 				DCC64584217DA3E1008C8A46 /* MainFuncController.m in Sources */,
-				DC8FE1DD21913A3A009BD458 /* First.m in Sources */,
+				DC2DE30821D3A33F0059F675 /* First.m in Sources */,
 				DCC64551217DA0B7008C8A46 /* main.m in Sources */,
 				DCC64546217DA0B5008C8A46 /* AppDelegate.m in Sources */,
 				DCF652E52186A33D00DACECA /* NSDate+Simple.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		DCC64553217DA0B8008C8A46 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				DCC6455C217DA0B8008C8A46 /* JsonTransitionToModelTests.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		DCC6455E217DA0B8008C8A46 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				DCC64567217DA0B8008C8A46 /* JsonTransitionToModelUITests.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXTargetDependency section */
-		DCC64559217DA0B8008C8A46 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = DCC64540217DA0B5008C8A46 /* JsonTransitionToModel */;
-			targetProxy = DCC64558217DA0B8008C8A46 /* PBXContainerItemProxy */;
-		};
-		DCC64564217DA0B8008C8A46 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = DCC64540217DA0B5008C8A46 /* JsonTransitionToModel */;
-			targetProxy = DCC64563217DA0B8008C8A46 /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		DCC6454C217DA0B7008C8A46 /* Main.storyboard */ = {
@@ -588,15 +394,20 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_ENTITLEMENTS = JsonTransitionToModel/JsonTransitionToModel.entitlements;
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				CODE_SIGN_INJECT_BASE_ENTITLEMENTS = NO;
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = ET3Y989RPW;
 				INFOPLIST_FILE = JsonTransitionToModel/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/../Frameworks",
 				);
+				OTHER_CODE_SIGN_FLAGS = "";
 				PRODUCT_BUNDLE_IDENTIFIER = langlib.JsonTransitionToModel;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 			};
 			name = Debug;
 		};
@@ -606,89 +417,20 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_ENTITLEMENTS = JsonTransitionToModel/JsonTransitionToModel.entitlements;
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				CODE_SIGN_INJECT_BASE_ENTITLEMENTS = NO;
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = ET3Y989RPW;
 				INFOPLIST_FILE = JsonTransitionToModel/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/../Frameworks",
 				);
+				OTHER_CODE_SIGN_FLAGS = "";
 				PRODUCT_BUNDLE_IDENTIFIER = langlib.JsonTransitionToModel;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-			};
-			name = Release;
-		};
-		DCC6456F217DA0B8008C8A46 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 1C086AF2908CD2EEC6D2C9B3 /* Pods-JsonTransitionToModelTests.debug.xcconfig */;
-			buildSettings = {
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				CODE_SIGN_STYLE = Automatic;
-				COMBINE_HIDPI_IMAGES = YES;
-				INFOPLIST_FILE = JsonTransitionToModelTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/../Frameworks",
-					"@loader_path/../Frameworks",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = langlib.JsonTransitionToModelTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/JsonTransitionToModel.app/Contents/MacOS/JsonTransitionToModel";
-			};
-			name = Debug;
-		};
-		DCC64570217DA0B8008C8A46 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 27534F325CE7C185A033ABCA /* Pods-JsonTransitionToModelTests.release.xcconfig */;
-			buildSettings = {
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				CODE_SIGN_STYLE = Automatic;
-				COMBINE_HIDPI_IMAGES = YES;
-				INFOPLIST_FILE = JsonTransitionToModelTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/../Frameworks",
-					"@loader_path/../Frameworks",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = langlib.JsonTransitionToModelTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/JsonTransitionToModel.app/Contents/MacOS/JsonTransitionToModel";
-			};
-			name = Release;
-		};
-		DCC64572217DA0B8008C8A46 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 4B522A2ECC5617C69E33119F /* Pods-JsonTransitionToModelUITests.debug.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_STYLE = Automatic;
-				COMBINE_HIDPI_IMAGES = YES;
-				INFOPLIST_FILE = JsonTransitionToModelUITests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/../Frameworks",
-					"@loader_path/../Frameworks",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = langlib.JsonTransitionToModelUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_TARGET_NAME = JsonTransitionToModel;
-			};
-			name = Debug;
-		};
-		DCC64573217DA0B8008C8A46 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 5E33243BD6938BA5D74F9C0B /* Pods-JsonTransitionToModelUITests.release.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_STYLE = Automatic;
-				COMBINE_HIDPI_IMAGES = YES;
-				INFOPLIST_FILE = JsonTransitionToModelUITests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/../Frameworks",
-					"@loader_path/../Frameworks",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = langlib.JsonTransitionToModelUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_TARGET_NAME = JsonTransitionToModel;
+				PROVISIONING_PROFILE_SPECIFIER = "";
 			};
 			name = Release;
 		};
@@ -709,24 +451,6 @@
 			buildConfigurations = (
 				DCC6456C217DA0B8008C8A46 /* Debug */,
 				DCC6456D217DA0B8008C8A46 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		DCC6456E217DA0B8008C8A46 /* Build configuration list for PBXNativeTarget "JsonTransitionToModelTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				DCC6456F217DA0B8008C8A46 /* Debug */,
-				DCC64570217DA0B8008C8A46 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		DCC64571217DA0B8008C8A46 /* Build configuration list for PBXNativeTarget "JsonTransitionToModelUITests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				DCC64572217DA0B8008C8A46 /* Debug */,
-				DCC64573217DA0B8008C8A46 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

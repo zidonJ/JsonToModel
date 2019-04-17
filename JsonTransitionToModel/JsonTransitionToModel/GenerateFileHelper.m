@@ -154,12 +154,14 @@ NS_INLINE NSString * getAllKeyValueString(NSArray *objInArr) {
         for (NSInteger i = 0; i < allKeys.count; i++) {
             id subObj = dic[allKeys[i]];
             if ([subObj isKindOfClass:[NSDictionary class]]) {
-                
+                if (![(NSDictionary *)subObj count]) {
+                    continue;
+                }
                 NSString *className = getClassName(helper.className,allKeys[i]);
                 NSString *curKey = [self takeOutKeyWord:allKeys[i]];
                 NSString *property = [NSString stringWithFormat:k_PROPERTY('s'),curKey,className,curKey];
                 [propertyArr addObject:property];
-
+                
                 [self.quoteClassString appendFormat:k_AT_CLASS,className];
                 MakeModelHelper *subHelper = [[MakeModelHelper alloc] initWithClassName:className];
                 [self.allHelperArray addObject:subHelper];
@@ -170,7 +172,9 @@ NS_INLINE NSString * getAllKeyValueString(NSArray *objInArr) {
                 [subHelper.sourceString appendFormat:k_CLASS_M, className,METHODIMP(allKeyValue)];
                 
             }else if ([subObj isKindOfClass:[NSArray class]]){
-                
+                if (![(NSArray *)subObj count]) {
+                    continue ;
+                }
                 NSString *className = getClassName(helper.className,allKeys[i]);
                 NSString *curKey = [self takeOutKeyWord:allKeys[i]];
                 id obj = [(NSArray *)subObj count] > 0 ? [(NSArray *)subObj firstObject] : nil;
@@ -183,12 +187,12 @@ NS_INLINE NSString * getAllKeyValueString(NSArray *objInArr) {
                     property = [NSString stringWithFormat:k_PROPERTY('c'),curKey,[NSString stringWithFormat:@"NSArray<%@ *>",@"NSString"],curKey];
                 }else if ([obj isKindOfClass:NSNumber.class]){
                     
-                    property = [NSString stringWithFormat:k_PROPERTY('c'),curKey,[NSString stringWithFormat:@"NSArray<%@ *>",@"NSNumber"],curKey];
+                    property = [NSString stringWithFormat:k_PROPERTY('s'),curKey,[NSString stringWithFormat:@"NSArray<%@ *>",@"NSNumber"],curKey];
                 }
                 [propertyArr addObject:property];
                 
                 NSString *mapperString =
-                [obj isKindOfClass:NSDictionary.class] ? className: ([obj isKindOfClass:NSString.class] ? @"NSString":@"NSNumber");
+                [obj isKindOfClass:NSDictionary.class] ? className: ([obj isKindOfClass:NSNumber.class] ? @"NSNumber":@"NSString");
                 NSString *keyValue = [NSString stringWithFormat:@"@\"%@\" : NSClassFromString(@\"%@\")",curKey,mapperString];
                 [objInArr addObject:keyValue];
                 [self.quoteClassString appendFormat:k_AT_CLASS,className];
@@ -260,7 +264,7 @@ NS_INLINE NSString * getAllKeyValueString(NSArray *objInArr) {
 }
 
 /// 如果属性的首字母是大写的 改成小写
-- (NSString *)makeFirstCharUper:(NSString *)string {
+- (NSString *)makeFirstCharLower:(NSString *)string {
     
     NSString *firstChar = [string substringToIndex:1];
     firstChar = [firstChar lowercaseString];
