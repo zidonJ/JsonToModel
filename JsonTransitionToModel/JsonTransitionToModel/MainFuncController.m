@@ -19,7 +19,7 @@
 #define DefaultsValue(key)\
 [[NSUserDefaults standardUserDefaults] objectForKey:key]
 
-NSString *const kClassName = @"className";
+NSString *const kProjectName = @"projectName";
 NSString *const kAuthorName = @"authorName";
 
 @interface MainFuncController () {
@@ -49,8 +49,8 @@ NSString *const kAuthorName = @"authorName";
     
     _modelHelper = [GenerateFileHelper new];
     
-    if (DefaultsValue(kClassName)) {
-        _ClassNameField.stringValue = DefaultsValue(kClassName);
+    if (DefaultsValue(kProjectName)) {
+        _projectName.stringValue = DefaultsValue(kProjectName);
     }
     
     if (DefaultsValue(kAuthorName)) {
@@ -93,7 +93,7 @@ NSString *const kAuthorName = @"authorName";
 - (IBAction)generateClassFile:(id)sender {
     
     
-    DefaultsSave(kClassName, _ClassNameField.stringValue);
+    DefaultsSave(kProjectName, _projectName.stringValue);
     DefaultsSave(kAuthorName, _authorName.stringValue);
     
     _modelHelper.className = _ClassNameField.stringValue;
