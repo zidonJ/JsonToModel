@@ -17,7 +17,7 @@
 [[NSUserDefaults standardUserDefaults] synchronize];
 
 #define DefaultsValue(key)\
-[[NSUserDefaults standardUserDefaults] objectForKey:key];
+[[NSUserDefaults standardUserDefaults] objectForKey:key]
 
 NSString *const kClassName = @"className";
 NSString *const kAuthorName = @"authorName";
@@ -49,8 +49,13 @@ NSString *const kAuthorName = @"authorName";
     
     _modelHelper = [GenerateFileHelper new];
     
-    _ClassNameField.stringValue = DefaultsValue(kClassName);
-    _authorName.stringValue = DefaultsValue(kAuthorName);
+    if (DefaultsValue(kClassName)) {
+        _ClassNameField.stringValue = DefaultsValue(kClassName);
+    }
+    
+    if (DefaultsValue(kAuthorName)) {
+        _authorName.stringValue = DefaultsValue(kAuthorName);
+    }
 }
 
 - (void)alert:(BOOL)jsonString {
