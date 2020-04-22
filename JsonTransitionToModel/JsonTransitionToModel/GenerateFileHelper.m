@@ -187,12 +187,12 @@ NS_INLINE NSString * getAllKeyValueString(NSArray *objInArr) {
                     property = [NSString stringWithFormat:k_PROPERTY('c'),curKey,[NSString stringWithFormat:@"NSArray<%@ *>",@"NSString"],curKey];
                 }else if ([obj isKindOfClass:NSNumber.class]){
                     
-                    property = [NSString stringWithFormat:k_PROPERTY('s'),curKey,[NSString stringWithFormat:@"NSArray<%@ *>",@"NSNumber"],curKey];
+                    property = [NSString stringWithFormat:k_PROPERTY('c'),curKey,[NSString stringWithFormat:@"NSArray<%@ *>",@"NSString"],curKey];
                 }
                 [propertyArr addObject:property];
                 
                 NSString *mapperString =
-                [obj isKindOfClass:NSDictionary.class] ? className: ([obj isKindOfClass:NSNumber.class] ? @"NSNumber":@"NSString");
+                [obj isKindOfClass:NSDictionary.class] ? className: ([obj isKindOfClass:NSNumber.class] ? @"NSString":@"NSString");
                 NSString *keyValue = [NSString stringWithFormat:@"@\"%@\" : NSClassFromString(@\"%@\")",curKey,mapperString];
                 [objInArr addObject:keyValue];
                 [self.quoteClassString appendFormat:k_AT_CLASS,className];
@@ -211,7 +211,7 @@ NS_INLINE NSString * getAllKeyValueString(NSArray *objInArr) {
                 [propertyArr addObject:property];
             } else if ([subObj isKindOfClass:[NSNumber class]]) {
                 NSString *curKey = [self takeOutKeyWord:allKeys[i]];
-                NSString *property = [NSString stringWithFormat:k_PROPERTY('s'),curKey,@"NSNumber",curKey];
+                NSString *property = [NSString stringWithFormat:k_PROPERTY('s'),curKey,@"NSString",curKey];
                 [propertyArr addObject:property];
             } else{
                 if (subObj == nil || [subObj isEqual:[NSNull null]]) {

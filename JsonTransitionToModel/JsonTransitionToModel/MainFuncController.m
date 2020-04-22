@@ -12,13 +12,22 @@
 #import "First.h"
 #import "LBSpellModel.h"
 
-@interface MainFuncController ()
+#define DefaultsSave(key,value)\
+[[NSUserDefaults standardUserDefaults] setObject:value forKey:key];\
+[[NSUserDefaults standardUserDefaults] synchronize];
 
-{
+#define DefaultsValue(key)\
+[[NSUserDefaults standardUserDefaults] objectForKey:key];
+
+NSString *const kClassName = @"className";
+NSString *const kAuthorName = @"authorName";
+
+@interface MainFuncController () {
     
     GenerateFileHelper *_modelHelper;
     NSString *_testJsonString;
 }
+
 @property (weak) IBOutlet NSTextField *ClassNameField;
 @property (weak) IBOutlet NSTextField *projectName;
 @property (weak) IBOutlet NSTextField *authorName;
@@ -39,6 +48,9 @@
     NSLog(@"%@\n%@\n%@",first.data,first.code,first.data.questionGuides);
     
     _modelHelper = [GenerateFileHelper new];
+    
+    _ClassNameField.stringValue = DefaultsValue(kClassName);
+    _authorName.stringValue = DefaultsValue(kAuthorName);
 }
 
 - (void)alert:(BOOL)jsonString {
@@ -75,6 +87,10 @@
 
 - (IBAction)generateClassFile:(id)sender {
     
+    
+    DefaultsSave(kClassName, _ClassNameField.stringValue);
+    DefaultsSave(kAuthorName, _authorName.stringValue);
+    
     _modelHelper.className = _ClassNameField.stringValue;
     _modelHelper.developerName = _authorName.stringValue;
     _modelHelper.projectName = _projectName.stringValue;
@@ -87,7 +103,6 @@
         alert.informativeText = @"打开文件目录";
         [alert addButtonWithTitle:@"OK"];
         [alert addButtonWithTitle:@"取消"];
-        
         
     }else{
         alert.messageText = @"生成文件失败";
