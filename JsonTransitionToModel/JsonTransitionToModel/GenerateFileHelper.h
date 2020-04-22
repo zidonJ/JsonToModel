@@ -23,7 +23,7 @@ NS_ASSUME_NONNULL_BEGIN
 ///MJExtension使用
 #define ModelMethod @"\
 + (NSDictionary *)mj_replacedKeyFromPropertyName {\n\n\
-return @{@\"Id\":@\"id\",@\"Discription\":@\"discription\"};\n\
+return @{@\"Id\":@\"id\",@\"Description\":@\"description\"};\n\
 }\n\n\
 + (NSDictionary *)mj_objectClassInArray {\n\
 return @{%@};\n\
@@ -35,7 +35,7 @@ return @{%@};\n\
 
 #define DMethod @"+ (nullable NSDictionary<NSString *, id> *)modelCustomPropertyMapper {\n\
 \n\
-    return @{@\"Id\":@\"id\",@\"Discription\":@\"discription\"};\n\
+    return @{@\"Id\":@\"id\",@\"Description\":@\"description\"};\n\
 }\n\n\
 + (nullable NSDictionary<NSString *, id> *)modelContainerPropertyGenericClass {\n\
     return @{%@};\n\
